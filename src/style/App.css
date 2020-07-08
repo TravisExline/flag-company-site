@@ -1,0 +1,12 @@
+.company-name-container {
+    text-align: center;
+    height: 400px;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+
+.background-image {
+    padding-top: 90px;
+    border-radius: 10px;
+}
