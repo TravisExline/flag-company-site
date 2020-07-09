@@ -5,7 +5,12 @@
 }
 
 .show-photo {
-    height: 850px;
-    width: 1200px;
+    height: 800px;
+    width: 1100px;
     border-radius: 7px;
+    transform: transform .2s;
+}
+
+.show-photo:hover {
+    transform: scale(1.4);
 }
