@@ -1,12 +1,14 @@
 .company-name-container {
     text-align: center;
     height: 400px;
-    background-color: royalblue;
+    background-color: rgba(15, 67, 223, 0.637);
     border-radius: 10px;
 }
 
 
 .background-image {
-    padding-top: 90px;
+    padding-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     border-radius: 10px;
 }
