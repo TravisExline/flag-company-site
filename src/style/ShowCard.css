@@ -1,0 +1,11 @@
+.photo-holder {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.show-photo {
+    height: 850px;
+    width: 1200px;
+    border-radius: 7px;
+}

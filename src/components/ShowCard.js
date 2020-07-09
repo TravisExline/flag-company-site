@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style/ShowCard.css'
 
 class ShowCard extends React.Component {
 

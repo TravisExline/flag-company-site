@@ -1,0 +1,13 @@
+.flag-container {
+    padding-top: 60px;
+}
+
+.landing-description {
+    text-align: center;
+}
+
+#landing-text {
+    padding-top: 7px;
+    text-shadow: 2px 2px 5px blue;
+    color: red;
+}
