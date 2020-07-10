@@ -2,6 +2,16 @@
     margin-top: 45px;
     height: 55px;
     width: 2100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px red;
     display: flex;
     justify-content: center;
+    background-color: rgba(15, 67, 223, 0.637);
+}
+
+.landing-link, .flags-link {
+    margin-right: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(247, 36, 36);
 }
