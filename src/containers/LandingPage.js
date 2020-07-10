@@ -13,7 +13,7 @@ class LandingPage extends React.Component {
         return (
             <div>
                 <div className="landing-description">
-                    <h1 id="landing-text">Custome Handmade Wood Flags created Right Here in Illinois!</h1>
+                    <h1 id="landing-text">Custom Handmade Wood Flags created Right Here in Illinois!</h1>
                 </div>
                 <div className="flag-container">
                     {landingPagePhotos.map((photo) => (

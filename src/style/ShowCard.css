@@ -8,9 +8,11 @@
     height: 800px;
     width: 1100px;
     border-radius: 7px;
+    box-shadow: gray;
     transform: transform .2s;
 }
 
 .show-photo:hover {
     transform: scale(1.4);
+    box-shadow: 0px 75px 150px black, 0px 0px 150px black;
 }
