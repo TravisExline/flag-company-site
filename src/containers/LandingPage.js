@@ -4,6 +4,7 @@ import showpage1 from '../images/showpage1.jpg'
 import showpage2 from '../images/showpage2.jpg'
 import showpage3 from '../images/showpage3.jpg'
 import showpage4 from '../images/showpage4.jpg'
+import NavBar from '../components/NavBar'
 import "../style/LandingPage.css"
 
 class LandingPage extends React.Component {
@@ -15,6 +16,7 @@ class LandingPage extends React.Component {
                 <div className="landing-description">
                     <h1 id="landing-text">Custom Handmade Wood Flags created Right Here in Illinois!</h1>
                 </div>
+                <NavBar />
                 <div className="flag-container">
                     {landingPagePhotos.map((photo) => (
                         <ShowCard photo={photo}/>

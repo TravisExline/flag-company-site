@@ -1,0 +1,7 @@
+.nav-container {
+    margin-top: 45px;
+    height: 55px;
+    width: 2100px;
+    display: flex;
+    justify-content: center;
+}
