@@ -9,6 +9,23 @@
     box-shadow: 20px 20px 35px red, -20px -20px 35px blue;
 }
 
+.size-details {
+    margin-left: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.price-details {
+    margin-right: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
 .all-flags-holder {
     display: flex;
     justify-content: space-around;

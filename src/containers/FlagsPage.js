@@ -16,6 +16,18 @@ class FlagsPage extends React.Component {
         return (
             <div>
                 <NavBar />
+                <div className="size-details">
+                    <h1 className="size-details-header">Size Details</h1>
+                    <h3>Size 1</h3>
+                    <h3>Size 2</h3>
+                    <h3>Size 3</h3>
+                </div>
+                <div className='price-details'>
+                    <h1 className="price-details-header">Size Details</h1>
+                        <h3>$</h3>
+                        <h3>$$</h3>
+                        <h3>$$$</h3>
+                </div>
             <div className='all-flags-holder'>
 
                 <div className="flag-1">
