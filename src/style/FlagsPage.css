@@ -1,0 +1,17 @@
+.flag-page-photos {
+    margin-top: 45px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 35px red, -20px -20px 35px blue;
+}
+
+.all-flags-holder {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
