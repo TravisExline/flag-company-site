@@ -1,7 +1,7 @@
 .flag-page-photos {
     margin-top: 45px;
     margin-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-left: 30px;
     height: 400px;
     width: 700px;
@@ -16,6 +16,7 @@
 }
 
 .all-details {
+    color: red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -52,4 +53,5 @@
     text-align: center;
     color: blue;
     font-size: 18px;
+    margin-bottom: 55px;
 }
