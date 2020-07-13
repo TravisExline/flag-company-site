@@ -9,6 +9,14 @@
     box-shadow: 20px 20px 35px red, -20px -20px 35px blue;
 }
 
+.all-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
 .size-details {
     margin-left: 450px;
     display: flex;
@@ -22,6 +30,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-content: flex-end;
     justify-content: flex-end;
 }
 
