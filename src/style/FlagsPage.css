@@ -39,5 +39,10 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
+}
+
+.flag-photo-description {
+    text-align: center;
+    font-size: 18px;
 }
