@@ -7,6 +7,12 @@
     width: 700px;
     border-radius: 10px;
     box-shadow: 20px 20px 35px red, -20px -20px 35px blue;
+    transform: transform .2s;
+}
+
+.flag-page-photos:hover {
+    transform: scale(1.5);
+    box-shadow: 40px 40px 75px red, -40px -40px 75px blue;
 }
 
 .all-details {
@@ -19,21 +25,21 @@
 
 .size-details {
     margin-left: 450px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: flex-start;
+    text-align: center;
+}
+
+.dimensions {
+    margin-bottom: 30px;
+}
+
+.price-details-header, .tattered {
+    margin-bottom: 0px;
 }
 
 .price-details {
-    margin-right: 450px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: flex-end;
-    justify-content: flex-end;
+    margin-right: 430px;
+    text-align: center;
 }
-
 
 .all-flags-holder {
     display: flex;
@@ -44,5 +50,6 @@
 
 .flag-photo-description {
     text-align: center;
+    color: blue;
     font-size: 18px;
 }

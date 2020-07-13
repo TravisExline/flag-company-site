@@ -19,23 +19,23 @@ class FlagsPage extends React.Component {
                 <div className="all-details">
                     <div className="size-details">
                         <h1 className="size-details-header">Size Details</h1>
-                            <h3>Small: *Dimensions*</h3>
-                            <h3>Medium: *Dimensions*</h3>
-                            <h3>Large: *Dimensions*</h3>
+                            <h3 className="dimensions">Small: *Dimensions*</h3>
+                            <h3 className="dimensions">Medium: *Dimensions*</h3>
+                            <h3 className="dimensions">Large: *Dimensions*</h3>
                     </div>
                     <div className='price-details'>
                         <h1 className="price-details-header">Price Details</h1>
+                            <h4 className="tattered">*For "Tattered" style flags, additional $10 fee applies*</h4>
                             <h3>Small: $</h3>
                             <h3>Medium: $$</h3>
                             <h3>Large: $$$</h3>
-                            <h4>*For "Beaten" style flags, additional $10 fee applies*</h4>
                     </div>
                 </div>
             <div className='all-flags-holder'>
 
                 <div className="flag-1">
-                    <img src={display1} className='flag-page-photos' alt='Black Beaten Flag'></img>
-                    <p className="flag-photo-description">Beaten Black American Flag</p>
+                    <img src={display1} className='flag-page-photos' alt='Black Tattered Flag'></img>
+                    <p className="flag-photo-description">Tattered Black American Flag</p>
                 </div>
 
                 <div className="flag-2">
@@ -54,8 +54,8 @@ class FlagsPage extends React.Component {
                 </div>
 
                 <div className="flag-5">
-                    <img src={display5} className='flag-page-photos' alt='Beaten American Flag'></img>
-                    <p className="flag-photo-description">Beaten American Flag</p>
+                    <img src={display5} className='flag-page-photos' alt='Tattered American Flag'></img>
+                    <p className="flag-photo-description">Tattered American Flag</p>
                 </div>
 
                 <div className="flag-6">
