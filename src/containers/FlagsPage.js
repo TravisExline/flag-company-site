@@ -60,7 +60,7 @@ class FlagsPage extends React.Component {
 
                 <div className="flag-6">
                     <img src={display6} className='flag-page-photos' alt='USAF Flag'></img>
-                    <p className="flag-photo-description">USAF Flag</p>
+                    <p className="flag-photo-description">USAF American Flag</p>
                 </div>
 
                 <div className="flag-7">
