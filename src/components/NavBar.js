@@ -14,7 +14,12 @@ const NavBar = () =>
         </NavLink>
         <NavLink className='about-link'
             to='/about'
-            exact>About</NavLink>
+            exact>About
+        </NavLink>
+        <NavLink className='contact-link'
+            to='/contact'
+            exact>Contact
+        </NavLink>
     </div>
 
 export default NavBar

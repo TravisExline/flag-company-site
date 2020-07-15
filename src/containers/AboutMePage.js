@@ -1,9 +1,11 @@
 import React from 'react'
+import NavBar from '../components/NavBar'
 
 class AboutMePage extends React.Component {
     render() {
         return (
             <div>
+                <NavBar />
                 <h1 className="about-header">Scorched Wood Flag Co.</h1>
                 <p className="about-content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
