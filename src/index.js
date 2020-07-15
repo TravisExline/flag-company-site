@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import App from './App';
 import FlagsPage from './containers/FlagsPage'
+import AboutMePage from './containers/AboutMePage'
 import * as serviceWorker from './serviceWorker';
 
 
@@ -11,6 +12,7 @@ ReactDOM.render(
         <div>
           <Route exact path='/' component={App} />
           <Route exact path='/flags' component={FlagsPage} />
+          <Route exact path='/about' component={AboutMePage} />
         </div>
       </Router>,
 

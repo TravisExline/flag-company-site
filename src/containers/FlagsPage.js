@@ -50,7 +50,7 @@ class FlagsPage extends React.Component {
 
                 <div className="flag-4">
                     <img src={display4} className='flag-page-photos' alt='Skull Flag'></img>
-                    <p className="flag-photo-description">Skull American Flag</p>
+                    <p className="flag-photo-description">Punisher American Flag</p>
                 </div>
 
                 <div className="flag-5">
@@ -65,7 +65,7 @@ class FlagsPage extends React.Component {
 
                 <div className="flag-7">
                     <img src={display7} className='flag-page-photos' alt='Snek Flag'></img>
-                    <p className="flag-photo-description">Don't Tred On Me Flag</p>
+                    <p className="flag-photo-description">Don't Tread On Me Flag</p>
                 </div>
 
                 <div className="flag-8">

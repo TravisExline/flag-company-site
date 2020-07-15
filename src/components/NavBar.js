@@ -12,6 +12,9 @@ const NavBar = () =>
             to='/flags'
             exact>Flags
         </NavLink>
+        <NavLink className='about-link'
+            to='/about'
+            exact>About</NavLink>
     </div>
 
 export default NavBar
