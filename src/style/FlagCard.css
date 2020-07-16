@@ -1,0 +1,23 @@
+.flag-photo-holder {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.flag-page-photos {
+    margin-top: 45px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    background-size: cover;
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 35px red, -20px -20px 35px blue;
+    transform: transform .2s;
+}
+
+.flag-page-photos:hover {
+    transform: scale(1.5);
+    box-shadow: 40px 40px 75px red, -40px -40px 75px blue;
+}
