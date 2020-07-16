@@ -1,40 +1,7 @@
-.all-details {
-    color: red;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-.size-details {
-    margin-left: 450px;
-    text-align: center;
-}
-
-.dimensions {
-    margin-bottom: 30px;
-}
-
-.price-details-header, .tattered {
-    margin-bottom: 0px;
-}
-
-.price-details {
-    margin-right: 430px;
-    text-align: center;
-}
-
 .all-flags-holder {
+    margin-top: 35px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
-}
-
-.flag-photo-description {
-    text-align: center;
-    color: blue;
-    font-size: 20px;
-    margin-bottom: 5px;
 }
