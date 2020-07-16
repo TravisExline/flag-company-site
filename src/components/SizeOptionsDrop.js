@@ -5,9 +5,9 @@ import '../style/SizeOptionsDrop.css'
 class SizeOptionsDrop extends React.Component {    
     render() {
         const options = [
-            {value: 'small', label: 'Small - $'},
-            {value: 'medium', label: 'Medium - $$'},
-            {value: 'large', label: 'Large - $$$'}
+            {value: 'small', label: 'Small (18.5") - $55'},
+            {value: 'medium', label: 'Medium (26") - $75'},
+            {value: 'large', label: 'Large (37") - $110'}
         ]
         return (
             <div className="options-container">

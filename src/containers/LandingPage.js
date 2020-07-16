@@ -14,7 +14,7 @@ class LandingPage extends React.Component {
         return (
             <div>
                 <div className="landing-description">
-                    <h1 id="landing-text">Custom Handmade Wood Flags created Right Here in Illinois!</h1>
+                    <h1 id="landing-text">Handcrafted Rustic American Flag Art</h1>
                 </div>
                 <NavBar />
                 <div className="flag-container">
