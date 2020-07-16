@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/FlagsPage.css'
+import SizeOptionsDrop from '../components/SizeOptionsDrop'
 import NavBar from '../components/NavBar'
 import display1 from '../images/display1.jpg'
 import display2 from '../images/display2.jpg'
@@ -36,46 +37,55 @@ class FlagsPage extends React.Component {
                 <div className="flag-1">
                     <img src={display1} className='flag-page-photos' alt='Black Tattered Flag'></img>
                     <p className="flag-photo-description">Tattered Black American Flag</p>
+                    <SizeOptionsDrop />
                 </div>
 
                 <div className="flag-2">
                     <img src={display2} className='flag-page-photos' alt='American Flag'></img>
                     <p className="flag-photo-description">American Flag</p>
+                    <SizeOptionsDrop />
                 </div>
 
                 <div className="flag-3">
                     <img src={display3} className='flag-page-photos' alt='Thin Blue Line Flag'></img>
                     <p className="flag-photo-description">Thin Blue Line American Flag</p>
+                    <SizeOptionsDrop />
                 </div>
 
                 <div className="flag-4">
                     <img src={display4} className='flag-page-photos' alt='Skull Flag'></img>
                     <p className="flag-photo-description">Punisher American Flag</p>
+                    <SizeOptionsDrop />
                 </div>
 
                 <div className="flag-5">
                     <img src={display5} className='flag-page-photos' alt='Tattered American Flag'></img>
                     <p className="flag-photo-description">Tattered American Flag</p>
+                    <SizeOptionsDrop />
                 </div>
 
                 <div className="flag-6">
                     <img src={display6} className='flag-page-photos' alt='USAF Flag'></img>
                     <p className="flag-photo-description">USAF American Flag</p>
+                    <SizeOptionsDrop />
                 </div>
 
                 <div className="flag-7">
                     <img src={display7} className='flag-page-photos' alt='Snek Flag'></img>
                     <p className="flag-photo-description">Don't Tread On Me Flag</p>
+                    <SizeOptionsDrop />
                 </div>
 
                 <div className="flag-8">
                     <img src={display8} className='flag-page-photos' alt='Navy Flag'></img>
                     <p className="flag-photo-description">United States Navy American Flag</p>
+                    <SizeOptionsDrop />
                 </div>
 
                 <div className="flag-9">
                     <img src={display9} className='flag-page-photos' alt='Thin Red Line Flag'></img>
                     <p className="flag-photo-description">Thin Red Line American Flag</p>
+                    <SizeOptionsDrop />
                 </div>
 
             </div>
