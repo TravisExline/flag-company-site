@@ -1,0 +1,17 @@
+.contact-holder {
+    margin-top: 200px;
+    margin-left: 840px;
+    margin-right: 800px;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    align-self: center;
+    background-color: rgba(65, 105, 225, 0.712);
+    box-shadow: 0px 0px 25px red;
+    border-radius: 10px;
+}
+
+.contact-details {
+    padding-top: 90px;
+    color: rgba(255, 0, 0, 0.897);
+}
