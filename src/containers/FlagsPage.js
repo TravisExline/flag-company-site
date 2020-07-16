@@ -1,7 +1,6 @@
 import React from 'react'
 import '../style/FlagsPage.css'
 import FlagCard from '../components/FlagCard'
-import SizeOptionsDrop from '../components/SizeOptionsDrop'
 import NavBar from '../components/NavBar'
 import display1 from '../images/display1.jpg'
 import display2 from '../images/display2.jpg'
