@@ -25,10 +25,12 @@ class FlagsPage extends React.Component {
             {photo: display8, name: 'US Navy American Flag', type: 'Limited'},
             {photo: display9, name: 'Thin Red Line American Flag', type: 'Non-limited'}
         ]
-        // debugger
         return (
             <div>
                 <NavBar />
+            <div className="order">
+                <h2>To Order, Please Email Us With Your Desired Size and Design</h2>
+            </div>
             <div className='all-flags-holder'>
                 {displayFlagPhotos.map((flag) => (
                     <FlagCard flag={flag.photo} name={flag.name} type={flag.type}/>

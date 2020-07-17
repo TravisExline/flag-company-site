@@ -5,3 +5,7 @@
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+.order {
+    text-align: center;
+}
