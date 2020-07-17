@@ -1,5 +1,6 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
+import '../style/About.css'
 
 class AboutMePage extends React.Component {
     render() {
@@ -13,7 +14,7 @@ class AboutMePage extends React.Component {
                 </p>
                 <h2 className="team-heading">The Team</h2>
                 <h3 className="founder-craftsman">Founder and Craftsman</h3>
-                <img src='' alt="Founder and Craftsman Photo"></img>
+                <img src='' alt="Founder and Craftsman Photo" classname="founder-photo"></img>
                 <p className="founder-craftsman-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
         )

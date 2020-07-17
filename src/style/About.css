@@ -1,0 +1,22 @@
+.about-header {
+    text-align: center;
+    font-size: 50px; 
+}
+
+.about-content {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    width: 1500px;
+}
+
+.team-heading {
+    margin-top: 95px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.founder-craftsman {
+    font-size: 25px;
+    margin-left: 300px;
+}
