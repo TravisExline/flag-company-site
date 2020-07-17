@@ -14,13 +14,25 @@ import display9 from '../images/display9.jpg'
 
 class FlagsPage extends React.Component {
     render() {
-        const displayFlagPhotos = [display1, display2, display3, display4, display5, display6, display7, display8, display9]
+        // const displayFlagPhotos = [display1, display2, display3, display4, display5, display6, display7, display8, display9]
+        const displayFlagPhotos = [
+            {photo: display1, name: 'Black American Flag', type: 'Non-limited'},
+            {photo: display2, name: 'American Flag', type: 'Non-limited'},
+            {photo: display3, name: 'Thin Blue Line American Flag', type: 'Non-limited'},
+            {photo: display4, name: 'Punisher American Flag', type: 'Non-limited'},
+            {photo: display5, name: 'Tattered American Flag', type: 'Non-limited'},
+            {photo: display6, name: 'USAF American Flag', type: 'Limited'},
+            {photo: display7, name: 'Tread American Flag', type: 'Non-limited'},
+            {photo: display8, name: 'US Navy American Flag', type: 'Limited'},
+            {photo: display9, name: 'Thin Red Line American Flag', type: 'Non-limited'}
+        ]
+        // debugger
         return (
             <div>
                 <NavBar />
             <div className='all-flags-holder'>
                 {displayFlagPhotos.map((flag) => (
-                    <FlagCard flag={flag} />
+                    <FlagCard flag={flag.photo} name={flag.name} type={flag.type}/>
                 ))}
             </div>
             </div>
