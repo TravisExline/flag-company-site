@@ -14,7 +14,6 @@ import display9 from '../images/display9.jpg'
 
 class FlagsPage extends React.Component {
     render() {
-        // const displayFlagPhotos = [display1, display2, display3, display4, display5, display6, display7, display8, display9]
         const displayFlagPhotos = [
             {photo: display1, name: 'Black American Flag', type: 'Non-limited'},
             {photo: display2, name: 'American Flag', type: 'Non-limited'},

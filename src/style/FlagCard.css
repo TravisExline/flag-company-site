@@ -21,3 +21,9 @@
     transform: scale(1.5);
     box-shadow: 40px 40px 75px red, -40px -40px 75px blue;
 }
+
+.flag-name {
+    font-size: 20px;
+    text-align: center;
+    color: royalblue;
+}
