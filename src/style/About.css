@@ -21,6 +21,12 @@
     margin-left: 300px;
 }
 
+.founder-photo-holder {
+    height: 300px;
+    width: 250px;
+    background-color: rgba(65, 105, 225, 0.692);
+    border-radius: 5px;
+}
 
 .founder-craftsman-details {
     font-size: 20px;
