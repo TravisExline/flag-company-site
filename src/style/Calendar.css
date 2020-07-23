@@ -1,0 +1,14 @@
+.calendar-holder {
+    width: 650px;
+    margin-top: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 55px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#calendar-header {
+    color: rgba(255, 0, 0, 0.842);
+    text-shadow: 2px 2px 5px rgba(65, 105, 225, 0.89);
+}
