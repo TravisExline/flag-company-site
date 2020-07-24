@@ -10,8 +10,9 @@
     margin-bottom: 10px;
     margin-left: 30px;
     background-size: cover;
-    height: 400px;
-    width: 700px;
+    max-height: 400px;
+    height: auto;
+    max-width: 90%;
     border-radius: 10px;
     box-shadow: 20px 20px 35px red, -20px -20px 35px blue;
     transform: transform .2s;
