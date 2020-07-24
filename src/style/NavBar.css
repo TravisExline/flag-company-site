@@ -2,10 +2,10 @@
     margin-top: 45px;
     height: 55px;
     border-radius: 10px;
-    box-shadow: 0px 0px 25px red;
+    box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.74);
     display: flex;
     justify-content: center;
-    background-color: rgba(15, 67, 223, 0.637);
+    background-color: rgba(65, 105, 225, 0.8);
 }
 
 .landing-link, .flags-link, .about-link, .contact-link {

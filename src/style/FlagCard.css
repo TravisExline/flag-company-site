@@ -14,13 +14,13 @@
     height: auto;
     max-width: 90%;
     border-radius: 10px;
-    box-shadow: 20px 20px 35px red, -20px -20px 35px blue;
+    box-shadow: 20px 20px 35px rgba(255, 0, 0, 0.74), -20px -20px 35px rgba(65, 105, 225, 0.8);
     transform: transform .2s;
 }
 
 .flag-page-photos:hover {
     transform: scale(1.5);
-    box-shadow: 40px 40px 75px red, -40px -40px 75px blue;
+    box-shadow: 40px 40px 75px rgba(255, 0, 0, 0.74), -40px -40px 75px rgba(65, 105, 225, 0.8);
 }
 
 .flag-name {
