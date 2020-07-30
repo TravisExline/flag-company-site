@@ -5,6 +5,10 @@ import LimitedSizeOptions from './LimitedSizeOptions'
 
 class FlagCard extends React.Component {
 
+    addToCart = () => {
+        
+    }
+
     render() {
         return(
             <div className="flag-photo-holder">
@@ -13,6 +17,7 @@ class FlagCard extends React.Component {
                 <div className="dropdown">
                     {this.props.type === "Non-limited" ? <SizeOptionsDrop /> : <LimitedSizeOptions />}
                 </div>
+                <button onClick={this.addToCart}>Add to Cart</button>
             </div>
         )
     }
