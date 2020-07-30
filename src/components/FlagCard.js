@@ -15,7 +15,8 @@ class FlagCard extends React.Component {
                 <img src={this.props.flag} className="flag-page-photos"></img>
                 <p className="flag-name">{this.props.name}</p>
                 <div className="dropdown">
-                    {this.props.type === "Non-limited" ? <SizeOptionsDrop /> : <LimitedSizeOptions />}
+                    <SizeOptionsDrop smallPrice={this.props.smallPrice} medPrice={this.props.medPrice} lrgPrice={this.props.lrgPrice}/>
+                    {/* {this.props.type === "Non-limited" ? <SizeOptionsDrop /> : <LimitedSizeOptions />} */}
                 </div>
                 <button onClick={this.addToCart}>Add to Cart</button>
             </div>
