@@ -1,7 +1,6 @@
 import React from 'react'
 import Select from 'react-select'
 import '../style/SizeOptionsDrop.css'
-import { connect } from 'react-redux'
 
 class SizeOptionsDrop extends React.Component {    
     render() {
