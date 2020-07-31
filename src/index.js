@@ -7,6 +7,7 @@ import App from './App';
 import FlagsPage from './containers/FlagsPage'
 import AboutMePage from './containers/AboutMePage'
 import ContactPage from './containers/ContactPage'
+import ShoppingCartPage from './containers/ShoppingCartPage'
 import flagsReducer from './reducers/flagsReducer'
 import * as serviceWorker from './serviceWorker';
 
@@ -20,6 +21,7 @@ ReactDOM.render(
             <Route exact path='/flags' component={FlagsPage} />
             <Route exact path='/about' component={AboutMePage} />
             <Route exact path='/contact' component={ContactPage} />
+            <Route exact path='/cart' component={ShoppingCartPage} />
           </Provider>
         </div>
       </Router>,
