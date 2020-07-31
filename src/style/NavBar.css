@@ -14,3 +14,9 @@
     font-weight: bold;
     color: rgb(247, 36, 36);
 }
+
+.cart-link {
+    color:  rgb(247, 36, 36);
+    padding-top: 8px;
+    font-size: 30px;
+}

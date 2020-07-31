@@ -1,5 +1,7 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import '../style/NavBar.css'
 
 const NavBar = () => 
@@ -20,6 +22,9 @@ const NavBar = () =>
             to='/contact'
             exact>Contact
         </NavLink>
+        <NavLink className='cart-link'
+            to='/contact'
+            exact><FontAwesomeIcon icon={faShoppingCart}/></NavLink>
     </div>
 
 export default NavBar
