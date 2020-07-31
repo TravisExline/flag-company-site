@@ -1,11 +1,13 @@
 import React from 'react'
 import '../style/FlagCard.css'
+// import addItemToCart from '../actions/cartItemActions'
 import SizeOptionsDrop from './SizeOptionsDrop'
+import { connect } from 'react-redux'
 
 class FlagCard extends React.Component {
 
     addToCart = () => {
-        
+        // this.props.addItemToCart({...this.state})
     }
 
     render() {
@@ -22,4 +24,4 @@ class FlagCard extends React.Component {
     }
 }
 
-export default FlagCard
+export default (FlagCard)
