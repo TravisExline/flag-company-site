@@ -1,5 +1,5 @@
 import React from 'react'
-import FlagCard from '../components/FlagCard'
+// import FlagCard from '../components/FlagCard'
 import { connect } from 'react-redux'
 
 class ShoppingCartPage extends React.Component {

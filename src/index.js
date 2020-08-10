@@ -2,13 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Provider } from 'react-redux'
-import { createStore } from 'redux'
 import App from './App';
 import FlagsPage from './containers/FlagsPage'
 import AboutMePage from './containers/AboutMePage'
 import ContactPage from './containers/ContactPage'
 import ShoppingCartPage from './containers/ShoppingCartPage'
-import flagsReducer from './reducers/flagsReducer'
 import {store} from './store'
 import * as serviceWorker from './serviceWorker';
 

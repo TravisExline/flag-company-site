@@ -16,7 +16,7 @@ class AboutMePage extends React.Component {
                 <h2 className="team-heading">The Team</h2>
                 <h3 className="founder-craftsman">Founder and Craftsman -  Todd Exline</h3>
                 <div className="founder-photo-holder">
-                    <img src='' alt="Founder and Craftsman" classname="founder-photo"></img>
+                    <img src='' alt="Founder and Craftsman" className="founder-photo"></img>
                 </div>
                 <p className="founder-craftsman-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
