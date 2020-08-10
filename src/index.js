@@ -9,9 +9,8 @@ import AboutMePage from './containers/AboutMePage'
 import ContactPage from './containers/ContactPage'
 import ShoppingCartPage from './containers/ShoppingCartPage'
 import flagsReducer from './reducers/flagsReducer'
+import {store} from './store'
 import * as serviceWorker from './serviceWorker';
-
-const store = createStore(flagsReducer)
 
 ReactDOM.render(
       <Router>

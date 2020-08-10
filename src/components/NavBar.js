@@ -23,7 +23,7 @@ const NavBar = () =>
             exact>Contact
         </NavLink>
         <NavLink className='cart-link'
-            to='/cart'
+            to='/contact'
             exact><FontAwesomeIcon icon={faShoppingCart}/></NavLink>
     </div>
 

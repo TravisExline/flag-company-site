@@ -2,9 +2,15 @@ import React from 'react'
 import '../style/FlagsPage.css'
 import FlagCard from '../components/FlagCard'
 import NavBar from '../components/NavBar'
+import { fetchFlags } from '../actions/flagActions'
 import { connect } from 'react-redux'
 
 class FlagsPage extends React.Component {
+
+    componentDidMount() {
+        this.props.fetchFlags()
+    }
+
     render() {
         return (
             <div>
@@ -13,7 +19,7 @@ class FlagsPage extends React.Component {
                 <h2>To Order, Please Email Us With Your Desired Size and Design</h2>
             </div>
             <div className='all-flags-holder'>
-                {this.props.flagDisplay.map((flag) => (
+                {this.props.flagDisplay.flags.map((flag) => (
                     <FlagCard flag={flag.photo} name={flag.name} smallPrice={flag.smallPrice} medPrice={flag.medPrice} lrgPrice={flag.lrgPrice}/>
                 ))}
             </div>
@@ -23,7 +29,8 @@ class FlagsPage extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    return {flagDisplay: state.flags}
+    debugger
+    return {flagDisplay: state.flagsReducer, newFlag: state.testFlagReducer}
 }
 
-export default connect(mapStateToProps)(FlagsPage)
+export default connect(mapStateToProps, { fetchFlags })(FlagsPage)
