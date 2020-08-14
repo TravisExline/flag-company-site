@@ -12,14 +12,9 @@ export const setFlags = flags => {
 
 export const fetchFlags = () => {
     return dispatch => 
-        fetch("http://localhost3001/flags", {
-            headers : {
-                'Content-Type': 'application/json',
-                'Accept' : 'application/json'
-            }
-        })
-        .then(res => {res.json()})
-        .then(data => {
-            dispatch(setFlags(data))
-        })
+    fetch("http://localhost:3001/flags")
+    .then(res => res.json())
+    .then(data => {
+        dispatch(setFlags(data))
+    })
 }
