@@ -33,7 +33,6 @@ class FlagsPage extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    debugger
     return {flagDisplay: state.flagsReducer, newFlag: state.testFlagReducer}
 }
 
