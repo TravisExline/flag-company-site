@@ -1,0 +1,33 @@
+.flag-display-holder {
+    height: 669px;
+}
+
+.flag-display-list {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 125px;
+    margin-bottom: 95px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.landing-display-photo {
+    width: 250px;
+    height: 250px;
+}
+
+.show-btn {
+    background-color: #0073B4;
+    font-family: 'Overpass Mono', monospace;
+    color: white;
+    width: 121px;
+    height: 35px;
+    margin-left: 48%;
+    margin-bottom: 116px;
+}
+
+.landing-flag-name {
+    font-family: 'Overpass', sans-serif;
+    font-size: 36px;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../style/FlagDisplay.css'
 import display1 from '../images/display1.jpg'
 import display2 from '../images/display2.jpg'
 import display3 from '../images/display3.jpg'
@@ -41,12 +42,12 @@ class FlagDisplay extends React.Component {
 
     render() {
         return(
-            <div>
-                <ul>
+            <div className='flag-display-holder'>
+                <ul className='flag-display-list'>
                     {this.state.flagPhotos.slice(0, this.state.itemsToShow).map((flag, i) => 
-                    <div className='landing-flag-display' key={i}><img src={flag.img} alt='flag'></img> <h3 className="landing-flag-name">{flag.name}</h3></div>)}
+                    <div className='landing-flag-display' key={i}><img className="landing-display-photo" src={flag.img} alt='flag'></img> <h3 className="landing-flag-name">{flag.name}</h3></div>)}
                 </ul>
-                <button className='btn btn-primary' onClick={this.showMore}>
+                <button className='show-btn' onClick={this.showMore}>
                     {this.state.expanded ? (
                         <span>Show less</span>
                          ) : (
