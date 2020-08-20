@@ -13,10 +13,10 @@ class LandingPage extends React.Component {
         const landingPagePhotos = [showpage1, showpage2, showpage3, showpage4];
         return (
             <div>
-                <div className="landing-description">
-                    <h1 id="landing-text">Handcrafted Rustic American Flag Art</h1>
+                <div className="landing-header">
+                    <h1 id="landing-company-name">Scorched Wood Flag Company</h1>
+                    <div className='nav-holder'><NavBar/></div>
                 </div>
-                <NavBar />
                 <div className="flag-container">
                     {landingPagePhotos.map((photo) => (
                         <ShowCard photo={photo}/>

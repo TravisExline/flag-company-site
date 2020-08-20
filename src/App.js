@@ -6,9 +6,9 @@ import LandingPage from './containers/LandingPage';
 function App() {
   return (
     <div className="App">
-      <div className="company-name-container">
+      {/* <div className="company-name-container">
           <img className="background-image" src={BackgroundImage} alt="background flag" height="300" width="1400px"></img>
-      </div>
+      </div> */}
       <LandingPage />
     </div>
   );

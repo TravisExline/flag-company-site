@@ -2,12 +2,20 @@
     padding-top: 60px;
 }
 
-.landing-description {
-    text-align: center;
+.landing-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
 }
 
-#landing-text {
-    padding-top: 7px;
-    text-shadow: 2px 2px 5px rgba(65, 105, 225, 0.8);
-    color: red;
+#landing-company-name {
+    text-align: left;
+    padding-left: 62px;
+    padding-top: 31px;
+    width: 280px;
+}
+
+.nav-holder {
+    padding-right: 25px;
 }

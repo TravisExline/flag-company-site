@@ -1,22 +1,14 @@
 .nav-container {
-    margin-top: 45px;
-    height: 55px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 25px rgba(255, 0, 0, 0.74);
     display: flex;
-    justify-content: center;
-    background-color: rgba(65, 105, 225, 0.8);
+    align-items: center;
+    justify-content: flex-end;
+    height: 112px;
+    width: 1440px;
+    padding-right: 48px;
 }
 
 .landing-link, .flags-link, .about-link, .contact-link {
-    margin-right: 20px;
-    font-size: 35px;
-    font-weight: bold;
-    color: rgb(247, 36, 36);
-}
-
-.cart-link {
-    color:  rgb(247, 36, 36);
-    padding-top: 8px;
-    font-size: 30px;
+    font-family: 'Overpass Mono', monospace;
+    padding-right: 20px;
+    font-size: 25px;
 }
