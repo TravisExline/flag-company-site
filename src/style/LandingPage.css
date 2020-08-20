@@ -1,6 +1,6 @@
-.flag-container {
+/* .flag-container {
     padding-top: 60px;
-}
+} */
 
 .landing-header {
     display: flex;
@@ -18,4 +18,23 @@
 
 .nav-holder {
     padding-right: 25px;
+}
+
+.section-image-left {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 62px;
+    height: 703px;
+}
+
+.img-holder {
+    height: 703px;
+    width: 50%;
+}
+
+.single-nav-holder {
+    margin-left: 162px;
+    margin-top: 262px;
+    width: 400px;
+    height: 204px;
 }

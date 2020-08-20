@@ -1,4 +1,5 @@
 import React from 'react'
+import {NavLink} from 'react-router-dom'
 import ShowCard from '../components/ShowCard'
 import showpage1 from '../images/showpage1.jpg'
 import showpage2 from '../images/showpage2.jpg'
@@ -17,10 +18,15 @@ class LandingPage extends React.Component {
                     <h1 id="landing-company-name">Scorched Wood Flag Company</h1>
                     <div className='nav-holder'><NavBar/></div>
                 </div>
-                <div className="flag-container">
-                    {landingPagePhotos.map((photo) => (
-                        <ShowCard photo={photo}/>
-                    ))}
+                <div className="section-image-left">
+                    <img className='img-holder' src={landingPagePhotos[0]} alt='flag filler'/>
+                    <div className='single-nav-holder'>
+                        <h2 id='flag-link-descript'>Handcrafted Wooden Flags for All</h2>
+                        <NavLink className='flags-link'
+                            to='/flags'
+                            exact><button>View Flags</button>
+                        </NavLink>
+                    </div>
                 </div>
             </div>
         )
