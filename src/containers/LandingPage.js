@@ -19,12 +19,12 @@ class LandingPage extends React.Component {
                     <div className='nav-holder'><NavBar/></div>
                 </div>
                 <div className="section-image-left">
-                    <img className='img-holder' src={landingPagePhotos[0]} alt='flag filler'/>
+                        <img className='img-holder' src={landingPagePhotos[0]} alt='flag filler'/>  
                     <div className='single-nav-holder'>
                         <h2 id='flag-link-descript'>Handcrafted Wooden Flags for All</h2>
                         <NavLink className='flags-link'
                             to='/flags'
-                            exact><button>View Flags</button>
+                            exact><button className='view-flags-button'>View Flags</button>
                         </NavLink>
                     </div>
                 </div>

@@ -12,3 +12,11 @@
     padding-right: 20px;
     font-size: 25px;
 }
+
+.view-flags-button {
+    width: 136px;
+    height: 60px;
+    background-color: #AD2328;
+    color: white;
+    align-self: center;
+}
