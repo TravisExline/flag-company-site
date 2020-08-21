@@ -12,7 +12,6 @@ import "../style/LandingPage.css"
 class LandingPage extends React.Component {
 
     render() {
-        const landingPagePhotos = [];
         return (
             <div>
                 <div className="landing-header">
@@ -33,6 +32,8 @@ class LandingPage extends React.Component {
                     <FlagDisplay />
                 </div>
                 <div className='custom-link-holder'>
+                    <h2 className='custom-link-header'>Have an Idea?</h2>
+                    <h3 className='custom-link-header-small'>Let's make it happen.</h3>
                     <NavLink className='custom-link'
                         to='/custom'
                         exact><button className='custom-flag-btn'>Request a Custom Flag</button>
