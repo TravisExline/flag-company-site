@@ -6,6 +6,7 @@ import App from './App';
 import FlagsPage from './containers/FlagsPage'
 import AboutMePage from './containers/AboutMePage'
 import ContactPage from './containers/ContactPage'
+import CustomForm from './components/CustomForm'
 import ShoppingCartPage from './containers/ShoppingCartPage'
 import {store} from './store'
 import * as serviceWorker from './serviceWorker';
@@ -18,6 +19,7 @@ ReactDOM.render(
             <Route exact path='/flags' component={FlagsPage} />
             <Route exact path='/about' component={AboutMePage} />
             <Route exact path='/contact' component={ContactPage} />
+            <Route exact path='/custom' component ={CustomForm} />
             <Route exact path='/cart' component={ShoppingCartPage} />
           </Provider>
         </div>

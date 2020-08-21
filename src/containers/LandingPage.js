@@ -32,6 +32,12 @@ class LandingPage extends React.Component {
                 <div className='flag-display-holder'>
                     <FlagDisplay />
                 </div>
+                <div className='custom-link-holder'>
+                    <NavLink className='custom-link'
+                        to='/custom'
+                        exact><button className='custom-flag-btn'>Request a Custom Flag</button>
+                    </NavLink>
+                </div>
             </div>
         )
     }
