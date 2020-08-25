@@ -1,12 +1,9 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 import FlagDisplay from '../components/FlagDisplay'
-import ShowCard from '../components/ShowCard'
 import showpage1 from '../images/showpage1.jpg'
-import showpage2 from '../images/showpage2.jpg'
-import showpage3 from '../images/showpage3.jpg'
-import showpage4 from '../images/showpage4.jpg'
 import NavBar from '../components/NavBar'
+import MyCalendar from '../containers/MyCalendar'
 import "../style/LandingPage.css"
 
 class LandingPage extends React.Component {
@@ -38,6 +35,10 @@ class LandingPage extends React.Component {
                         to='/custom'
                         exact><button className='custom-flag-btn'>Request a Custom Flag</button>
                     </NavLink>
+                </div>
+                <div className = 'calendar-holder'>
+                    <h1>Find Us In Person</h1>
+                    <MyCalendar />
                 </div>
             </div>
         )

@@ -1,14 +1,9 @@
 .calendar-holder {
     max-height: 900px;
-    height: auto;
-    width: 75%;
-    margin-top: 55px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 55px;
-    border-radius: 10px;
     text-align: center;
-    box-shadow: 0px 0px 20px rgba(65, 105, 225, 0.89);
 }
 
 #calendar-header {

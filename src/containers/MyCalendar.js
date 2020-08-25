@@ -10,13 +10,13 @@ const today = moment().format('dddd, MMMM D, YYYY')
 const eventsList = [
     {
         eventName: 'Kane County Flea Market',
-        eventDate: 'Saturday, October 3, 2020',
+        eventDate:  moment('Saturday, October 3, 2020').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
     },
     {
         eventName: 'Kane County Flea Market',
-        eventDate: moment('Tuesday, August 25, 2020').format('dddd, MMMM D, YYYY'),
+        eventDate: moment('Sunday, October 4, 2020').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
     }
