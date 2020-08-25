@@ -4,34 +4,31 @@ import moment from 'moment'
 const today = moment().format('dddd, MMMM D, YYYY')
 
 class TestCalendar extends React.Component {
-    // constructor() {
-    //     super()
-    //     var today = new Date()
-    //     var newDate = today.getMonth() + "-" + today.getDate() + '-' + today.getFullYear()
-    //     this.state = {
-    //         todaysDate: newDate
-    //     }
-    // }
+    constructor() {
+        super()
+        this.state = {
+            todaysDate: today
+        }
+    }
+
+    showDate() {
+        this.props.myEvents.map((myEvent) => {
+            if (myEvent.eventDate == this.state.todaysDate.toString) {
+                return (
+                <div>
+                    <h3>{myEvent.eventDate}</h3>
+                    <h3>{myEvent.eventStart} - {myEvent.eventEnd}</h3>
+                    <h2>{myEvent.eventName}</h2>
+                </div> )
+            }
+        })
+    }
 
     render() {
+        debugger
         return(
             <div>
-                {/* {this.props.events.map()} */}
-                {this.props.events.forEach(event => 
-                    event.eventDate == today.toString() ? 
-                 <div>
-                    <h2>{event.eventDate}</h2>
-                    <h2>{event.eventStart} - {event.eventEnd}</h2>
-                    <h1>{event.eventName}</h1>
-                </div> : console.log(event.eventDate)
-                    // if (event.eventDate === this.state.todaysDate) {
-                    //     <div>
-                    //         <h2>{event.eventDate}</h2>
-                    //         <h2>{event.eventStart} - {event.eventEnd}</h2>
-                    //         <h1>{event.eventName}</h1>
-                    //     </div>
-                    // // }
-                )}
+                {this.showDate()}
             </div>
         )
     }
