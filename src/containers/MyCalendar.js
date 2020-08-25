@@ -49,13 +49,13 @@ import '../style/Calendar.css'
 const eventsList = [
     {
         eventName: 'Kane County Flea Market',
-        eventDate: new Date('10-3-2020'),
+        eventDate: 'Saturday, October 3, 2020',
         eventStart: '12pm',
         eventEnd: '5pm'
     },
     {
         eventName: 'Kane County Flea Market',
-        eventDate: new Date('7-25-2020'),
+        eventDate: moment('Tuesday, August 25, 2020').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
     }
