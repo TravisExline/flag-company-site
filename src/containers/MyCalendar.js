@@ -10,7 +10,7 @@ const today = moment().format('dddd, MMMM D, YYYY')
 const eventsList = [
     {
         eventName: 'Kane County Flea Market',
-        eventDate:  moment('Wednesday, August 26, 2020').format('dddd, MMMM D, YYYY'),
+        eventDate:  moment('Saturday, October 3, 2020').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
     },
@@ -22,15 +22,24 @@ const eventsList = [
     }
 ]
 
+// let sorted = eventsList
+//     .sort((a, b) => (a.eventDate > b.eventDate ? 1 : -1))
+//     .filter((event) =>
+//         moment(event.eventDate).isSameOrAfter(today));
 
+let [nextEvent, ...rest] = eventsList
+    .sort((a, b) => (a.eventDate > b.eventDate ? 1 : -1))
+    .filter((event) => 
+        moment(event.eventDate).isSameOrAfter(today))
 
 class MyCalendar extends React.Component {
     render() {
         return(
-            <div>
-                <TestCalendar 
-                    myEvents={eventsList}/>
-            </div>
+            Boolean(nextEvent) && (
+                <div>
+                    {nextEvent.eventDate}
+                </div>
+            )
         )
     }
 }
