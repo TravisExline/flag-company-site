@@ -19,6 +19,30 @@ const eventsList = [
         eventDate: moment('Sunday, October 4, 2020').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Saturday, October 31, 2020').format('dddd, MMMM D, YYYY'),
+        eventStart: '12pm',
+        eventEnd: '5pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Sunday, November 1, 2020').format('dddd, MMMM D, YYYY'),
+        eventStart: '12pm',
+        eventEnd: '5pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Saturday, December 5, 2020').format('dddd, MMMM D, YYYY'),
+        eventStart: '12pm',
+        eventEnd: '5pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Sunday, December 6, 2020').format('dddd, MMMM D, YYYY'),
+        eventStart: '12pm',
+        eventEnd: '5pm'
     }
 ]
 
@@ -30,10 +54,11 @@ const eventsList = [
 let [nextEvent, ...rest] = eventsList
     .sort((a, b) => (a.eventDate > b.eventDate ? 1 : -1))
     .filter((event) => 
-        moment(event.eventDate).isSameOrAfter(today))
+        moment(event.eventDate).isSameOrAfter(new Date().toLocaleDateString()))
 
 class MyCalendar extends React.Component {
     render() {
+        debugger
         return(
             Boolean(nextEvent) && (
                 <div>
