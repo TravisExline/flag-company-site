@@ -14,7 +14,6 @@ class ContactPage extends React.Component {
                         <h2 id="facebook">Visit Our <a href="https://www.facebook.com/Scorched-Wood-Flag-Co-103691608050454">Facebook</a></h2>
                     </div>
                 </div>
-                <MyCalendar />
             </div>
         )
     }

@@ -8,7 +8,7 @@
 #landing-company-name {
     text-align: left;
     font-size: 42px;
-    padding-left: 62px;
+    padding-left: 55px;
     padding-top: 31px;
     width: 280px;
 }
@@ -20,7 +20,6 @@
 .section-image-left {
     display: flex;
     margin-top: 40px;
-    margin-left: 62px;
     height: 703px;
 }
 
