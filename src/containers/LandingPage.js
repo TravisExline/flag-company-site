@@ -36,8 +36,7 @@ class LandingPage extends React.Component {
                         exact><button className='custom-flag-btn'>Request a Custom Flag</button>
                     </NavLink>
                 </div>
-                <div className = 'calendar-holder'>
-                    <h1>Find Us In Person</h1>
+                <div className = 'calendar'>
                     <MyCalendar />
                 </div>
             </div>

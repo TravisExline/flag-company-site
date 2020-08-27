@@ -1,12 +1,17 @@
-.calendar-holder {
-    max-height: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 55px;
+.in-person-holder {
     text-align: center;
+    width: 300px;
 }
 
-#calendar-header {
-    color: rgba(255, 0, 0, 0.74);
-    text-shadow: 2px 2px 5px rgba(65, 105, 225, 0.89);
+.event-name {
+    font-family: 'Overpass', sans-serif;
+}
+
+.event-time, .event-date {
+    font-family: 'Overpass Mono', monospace;
+}
+
+.calendar-holder {
+    display: flex;
+    justify-content: space-evenly;
 }

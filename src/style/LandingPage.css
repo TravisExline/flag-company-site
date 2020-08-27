@@ -59,3 +59,9 @@
 .custom-link-header-small {
     font-size: 36px;
 }
+
+.calendar-holder {
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
