@@ -7,7 +7,7 @@ import '../style/Calendar.css'
 
 const today = moment().format('dddd, MMMM D, YYYY')
 
-const eventsList = [
+const myEvents = [
     {
         eventName: 'Kane County Flea Market',
         eventDate:  moment('Saturday, October 3, 2020').format('dddd, MMMM D, YYYY'),
@@ -51,20 +51,42 @@ const eventsList = [
 //     .filter((event) =>
 //         moment(event.eventDate).isSameOrAfter(today));
 
-let [nextEvent, ...rest] = eventsList
-    .sort((a, b) => (a.eventDate > b.eventDate ? 1 : -1))
-    .filter((event) => 
-        moment(event.eventDate).isSameOrAfter(new Date().toLocaleDateString()))
+// let [nextEvent, ...rest] = eventsList
+//     .sort((a, b) => (a.eventDate > b.eventDate ? 1 : -1))
+//     .filter((event) => 
+//         moment(event.eventDate).isSameOrAfter(today))
+
+
 
 class MyCalendar extends React.Component {
     render() {
-        debugger
+
+        const correctDateArray = []
+        const correctDate = myEvents.map((myEvent, i) => {
+            if (i+1 < myEvents.length) {
+                if (myEvent.eventDate == today) {
+                    console.log("Date 1 passed")
+                    correctDateArray.push(myEvent)
+                } else if (today > myEvent.eventDate && myEvent.eventDate < myEvents[i + 1].eventDate) {
+                    console.log("Date 2 passed")
+                    return (
+                    correctDateArray.push(myEvent)
+                    )
+                } else {
+                    console.log("I think it works")
+                }
+            }
+        })    
+
         return(
-            Boolean(nextEvent) && (
-                <div>
-                    {nextEvent.eventDate}
-                </div>
-            )
+            // Boolean(nextEvent) && (
+            //     <div>
+            //         {nextEvent.eventDate}
+            //     </div>
+            // )
+            <div>
+                {correctDateArray.shift().eventDate}
+            </div>
         )
     }
 }
