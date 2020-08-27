@@ -1,6 +1,4 @@
 import React from 'react'
-import { Calendar, momentLocalizer } from 'react-big-calendar'
-import TestCalendar from '../components/TestCalendar'
 import moment from 'moment'
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import '../style/Calendar.css'
@@ -8,6 +6,12 @@ import '../style/Calendar.css'
 const today = moment().format('dddd, MMMM D, YYYY')
 
 const myEvents = [
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate:  moment('8/22/2020').format('dddd, MMMM D, YYYY'),
+        eventStart: '12pm',
+        eventEnd: '5pm'
+    },
     {
         eventName: 'Kane County Flea Market',
         eventDate:  moment('Saturday, October 3, 2020').format('dddd, MMMM D, YYYY'),
@@ -63,11 +67,12 @@ class MyCalendar extends React.Component {
 
         const correctDateArray = []
         const correctDate = myEvents.map((myEvent, i) => {
+            debugger
             if (i+1 < myEvents.length) {
                 if (myEvent.eventDate == today) {
                     console.log("Date 1 passed")
                     correctDateArray.push(myEvent)
-                } else if (today > myEvent.eventDate && myEvent.eventDate < myEvents[i + 1].eventDate) {
+                } else if (today > myEvent.eventDate) {
                     console.log("Date 2 passed")
                     return (
                     correctDateArray.push(myEvent)
