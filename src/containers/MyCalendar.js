@@ -50,11 +50,12 @@ class MyCalendar extends React.Component {
         const correctDateArray = []
 
         myEvents.map((myEvent, i) => {
+            debugger
             if (i+1 < myEvents.length) {
                 if (myEvent.eventDate == today) {
                     console.log("Date 1 passed")
                     correctDateArray.push(myEvent)
-                } else if (today > myEvent.eventDate && myEvent.eventDate < myEvents[i + 1].eventDate) {
+                } else if (today < myEvent.eventDate && myEvent.eventDate < myEvents[i + 1].eventDate) {
                     console.log("Date 2 passed")
                     return (
                     correctDateArray.push(myEvent)
