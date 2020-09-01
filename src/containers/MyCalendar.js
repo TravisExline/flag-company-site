@@ -8,6 +8,12 @@ const today = moment().format('dddd, MMMM D, YYYY')
 const myEvents = [
     {
         eventName: 'Kane County Flea Market',
+        eventDate:  moment('Monday, August 31, 2020').format('dddd, MMMM D, YYYY'),
+        eventStart: '12pm',
+        eventEnd: '5pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
         eventDate:  moment('Saturday, October 3, 2020').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
@@ -48,14 +54,16 @@ class MyCalendar extends React.Component {
     render() {
 
         const correctDateArray = []
+        // only works every other day
 
         myEvents.map((myEvent, i) => {
             debugger
             if (i+1 < myEvents.length) {
-                if (myEvent.eventDate == today) {
+                if (new Date(myEvent.eventDate).toDateString() === new Date().toDateString()) {
                     console.log("Date 1 passed")
+
                     correctDateArray.push(myEvent)
-                } else if (today < myEvent.eventDate && myEvent.eventDate < myEvents[i + 1].eventDate) {
+                } else if (new Date().toDateString() > new Date(myEvent.eventDate).toDateString() && new Date(myEvent.eventDate).toDateString() < new Date(myEvents[i + 1].eventDate).toDateString()) {
                     console.log("Date 2 passed")
                     return (
                     correctDateArray.push(myEvent)
