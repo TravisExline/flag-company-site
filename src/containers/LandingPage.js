@@ -4,6 +4,7 @@ import FlagDisplay from '../components/FlagDisplay'
 import showpage1 from '../images/showpage1.jpg'
 import NavBar from '../components/NavBar'
 import MyCalendar from '../containers/MyCalendar'
+import CustomFormHolder from './CustomFormHolder'
 import "../style/LandingPage.css"
 
 class LandingPage extends React.Component {
@@ -27,15 +28,8 @@ class LandingPage extends React.Component {
                 </div>
                 <div className='flag-display-holder'>
                     <FlagDisplay />
-                </div>
-                <div className='custom-link-holder'>
-                    <h2 className='custom-link-header'>Have an Idea?</h2>
-                    <h3 className='custom-link-header-small'>Let's make it happen.</h3>
-                    <NavLink className='custom-link'
-                        to='/custom'
-                        exact><button className='custom-flag-btn'>Request a Custom Flag</button>
-                    </NavLink>
-                </div>
+                </div> 
+                <CustomFormHolder />
                 <div className = 'calendar'>
                     <MyCalendar />
                 </div>

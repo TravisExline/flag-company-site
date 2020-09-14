@@ -48,10 +48,8 @@ class MyCalendar extends React.Component {
     render() {
 
         const correctDateArray = []
-        // only works every other day
 
         myEvents.map((myEvent, i) => {
-            // debugger
             if (i+1 < myEvents.length) {
                 if (new Date(myEvent.eventDate).toDateString() === new Date().toDateString()) {
                     console.log("Date 1 passed")
@@ -68,8 +66,7 @@ class MyCalendar extends React.Component {
             }
         })  
 
-        const correctDate = correctDateArray.shift()
-        // debugger  
+        const correctDate = correctDateArray.shift() 
 
         return(
             <div className='calendar-holder'>
