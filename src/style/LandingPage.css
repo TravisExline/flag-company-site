@@ -24,8 +24,8 @@
 }
 
 .img-holder {
-    height: 703px;
-    width: 50%;
+    height: auto;
+    max-width: 50%;
 }
 
 .single-nav-holder {
@@ -35,10 +35,4 @@
     font-family: 'Overpass', sans-serif;
     width: 400px;
     height: 204px;
-}
-
-.calendar-holder {
-    height: 400px;
-    margin-top: 200px;
-    margin-left: 100px;
 }

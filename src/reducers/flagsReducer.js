@@ -16,9 +16,9 @@ const initState = {
         {photo: display3, name: 'Thin Blue Line American Flag', smallPrice: 'Small (18.5") - $55', medPrice: 'Medium (26") - $75', lrgPrice: 'Large (37") - $110'},
         {photo: display4, name: 'Punisher American Flag', smallPrice: 'Small (18.5") - $55', medPrice: 'Medium (26") - $75', lrgPrice: 'Large (37") - $110'},
         {photo: display5, name: 'Tattered American Flag', smallPrice: 'Small (18.5") - $55', medPrice: 'Medium (26") - $75', lrgPrice: 'Large (37") - $110'},
-        {photo: display6, name: 'USAF American Flag', smallPrice: 'Small (18.5") - NOT AVAILABLE', medPrice: 'Medium (26") - NOT AVAILABLE', lrgPrice: 'Large (37") - $110'},
+        {photo: display6, name: 'USAF American Flag', smallPrice: 'Small (18.5") - $55', medPrice: 'Medium (26") - $75', lrgPrice: 'Large (37") - NOT AVAILABLE'},
         {photo: display7, name: 'Tread American Flag', smallPrice: 'Small (18.5") - $55', medPrice: 'Medium (26") - $75', lrgPrice: 'Large (37") - $110'},
-        {photo: display8, name: 'US Navy American Flag', smallPrice: 'Small (18.5") - NOT AVAILABLE', medPrice: 'Medium (26") - NOT AVAILABLE', lrgPrice: 'Large (37") - $110'},
+        {photo: display8, name: 'US Navy American Flag', smallPrice: 'Small (18.5") - $55', medPrice: 'Medium (26") - $75', lrgPrice: 'Large (37") - NOT AVAILABLE'},
         {photo: display9, name: 'Thin Red Line American Flag', smallPrice: 'Small (18.5") - $55', medPrice: 'Medium (26") - $75', lrgPrice: 'Large (37") - $110'}
     ]
 }
