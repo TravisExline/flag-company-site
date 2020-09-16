@@ -2,6 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    max-height: 350px;
+    width: 400px;
 }
 
 .flag-page-photos {
@@ -10,17 +12,14 @@
     margin-bottom: 10px;
     margin-left: 30px;
     background-size: cover;
-    max-height: 400px;
+    max-height: 150px;
     height: auto;
-    max-width: 90%;
-    border-radius: 10px;
-    box-shadow: 20px 20px 35px rgba(255, 0, 0, 0.74), -20px -20px 35px rgba(65, 105, 225, 0.8);
+    max-width: 70%;
     transform: transform .2s;
 }
 
 .flag-page-photos:hover {
     transform: scale(1.5);
-    box-shadow: 40px 40px 75px rgba(255, 0, 0, 0.74), -40px -40px 75px rgba(65, 105, 225, 0.8);
 }
 
 .flag-name {

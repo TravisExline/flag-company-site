@@ -1,11 +1,9 @@
 .all-flags-holder {
     margin-top: 35px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.order {
-    text-align: center;
+    flex-direction: column;
+    height: 1000px;
+    margin-left: 270px;
 }

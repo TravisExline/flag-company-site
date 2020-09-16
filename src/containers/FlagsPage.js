@@ -17,6 +17,15 @@ class FlagsPage extends React.Component {
         return(
             <div>
                 <NavBar />
+                <div className='all-flags-holder'>
+                    {this.props.flagDisplay.flags.map((flag) => (
+                        <FlagCard flag={flag.photo} name={flag.name} smallPrice={flag.smallPrice} medPrice={flag.medPrice} lrgPrice={flag.lrgPrice}/>
+                    ))}
+                    {this.props.newFlag.map((flag) => (
+                        <p>{flag.name}{flag.id}</p>
+                    ))
+                    }
+                </div>
                 <CustomFormHolder />
                 <MyCalendar />
             </div>
