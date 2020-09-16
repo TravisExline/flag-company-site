@@ -10,7 +10,7 @@ class ContactPage extends React.Component {
                 <NavBar />
                 <div className="contact-holder">
                     <div className="contact-details">
-                        <h2 id="email">Email: texline5@gmail.com</h2>
+                        <h2 id="email">Email: texline5@aol.com</h2>
                         <h2 id="facebook">Visit Our <a href="https://www.facebook.com/Scorched-Wood-Flag-Co-103691608050454">Facebook</a></h2>
                     </div>
                 </div>

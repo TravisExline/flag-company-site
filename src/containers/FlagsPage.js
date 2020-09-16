@@ -5,6 +5,7 @@ import NavBar from '../components/NavBar'
 import { fetchFlags } from '../actions/flagActions'
 import { connect } from 'react-redux'
 import CustomFormHolder from './CustomFormHolder'
+import WhyBuy from './WhyBuy'
 import MyCalendar from './MyCalendar'
 
 class FlagsPage extends React.Component {
@@ -25,6 +26,7 @@ class FlagsPage extends React.Component {
                         <FlagCard flag={flag.photo} name={flag.name} smallPrice={flag.smallPrice} medPrice={flag.medPrice} lrgPrice={flag.lrgPrice}/>
                     ))}
                 </div>
+                <WhyBuy />
                 <CustomFormHolder />
                 <MyCalendar />
             </div>
