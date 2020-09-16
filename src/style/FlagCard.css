@@ -15,15 +15,18 @@
     max-height: 150px;
     height: auto;
     max-width: 70%;
-    transform: transform .2s;
-}
-
-.flag-page-photos:hover {
-    transform: scale(1.5);
 }
 
 .flag-name {
-    font-size: 20px;
-    text-align: center;
-    color: royalblue;
+    margin-left: 30px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.view-flag-btn {
+    background-color: #0073B4;
+    color: white;
+    height: 35px;
+    width: 120px;
+    margin-left: 30px;
+
 }
