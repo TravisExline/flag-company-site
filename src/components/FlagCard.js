@@ -17,7 +17,7 @@ class FlagCard extends React.Component {
                 <h2 className="flag-name">{this.props.name}</h2>
                 <NavLink
                     to='/viewflag'
-                    exact><button className='view-flag-btn'>View Flags</button>
+                    exact><button className='view-flag-btn'>View Flag</button>
                 </NavLink>
                 {/* <button onClick={this.addToCart}>Add to Cart</button> */}
             </div>

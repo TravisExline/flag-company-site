@@ -15,8 +15,16 @@
     width: 720px;
 }
 
-.description-flavor-head, .description-flavor {
+.description-flavor-head, .description-flavor, .flag-name, .flag-flavor, .return-flavor-head, .return-flavor {
     text-align: left;
     max-width: 453px;
     margin-left: 140px;
+}
+
+.description-flavor-head, .description-flavor, .return-flavor-head, .return-flavor {
+    font-family: 'Overpass Mono', monospace;
+}
+
+.flag-name, .flag-flavor {
+    font-family: 'Overpass', sans-serif;
 }

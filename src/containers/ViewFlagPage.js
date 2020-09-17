@@ -21,11 +21,19 @@ class ViewFlagPage extends React.Component {
                     <div className='description-holder'>
                         <h1 className='flag-name'>American Flag</h1>
                         <h2 className='flag-flavor'>The Traditional American Flag, handcrafted on real, American wood.</h2>
-                        <SizeOptionsDrop />
+                        <div className='drop-down-holder'>
+                            <SizeOptionsDrop />
+                        </div>
                         <h3 className='description-flavor-head'>
                             + DESCRIPTION
                         </h3>
                         <p className='description-flavor'>
+                            Made one at a time in out workshop, this tried and true homage to tradition creates a fine addition to your space
+                        </p>
+                        <h3 className='return-flavor-head'>
+                            + RETURNS
+                        </h3>
+                        <p className='return-flavor'>
                             Made one at a time in out workshop, this tried and true homage to tradition creates a fine addition to your space
                         </p>
                     </div>
