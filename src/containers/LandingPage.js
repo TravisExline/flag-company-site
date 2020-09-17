@@ -26,9 +26,7 @@ class LandingPage extends React.Component {
                         </NavLink>
                     </div>
                 </div>
-                <div className='flag-display-holder'>
-                    <FlagDisplay />
-                </div> 
+                <FlagDisplay />
                 <CustomFormHolder />
                 <div className = 'calendar'>
                     <MyCalendar />

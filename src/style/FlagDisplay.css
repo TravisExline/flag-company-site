@@ -2,8 +2,6 @@
     display: flex;
     align-content: center;
     flex-wrap: wrap;
-    margin-top: 125px;
-    margin-bottom: 95px;
     justify-content: space-evenly;
     text-align: center;
 }
@@ -25,4 +23,12 @@
 .landing-flag-name {
     font-family: 'Overpass', sans-serif;
     font-size: 36px;
+}
+
+.landing-flag-display {
+    margin-top: 125px;
+}
+
+.flag-display-holder {
+    background-color: #F1F1F1;
 }
