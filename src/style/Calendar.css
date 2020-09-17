@@ -3,7 +3,7 @@
     width: 300px;
 }
 
-.event-name {
+.event-name, .calendar-header {
     font-family: 'Overpass', sans-serif;
 }
 
