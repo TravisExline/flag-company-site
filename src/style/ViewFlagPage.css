@@ -1,0 +1,22 @@
+.flex-holder {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flag-img {
+    width: 544px;
+    height: 280px;
+    margin-top: 200px;
+}
+
+.description-holder {
+    background-color: #F1F1F1;
+    width: 720px;
+}
+
+.description-flavor-head, .description-flavor {
+    text-align: left;
+    max-width: 453px;
+    margin-left: 140px;
+}
