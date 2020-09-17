@@ -10,6 +10,7 @@ import CustomForm from './components/CustomForm'
 import ShoppingCartPage from './containers/ShoppingCartPage'
 import {store} from './store'
 import * as serviceWorker from './serviceWorker';
+import ViewFlagPage from './containers/ViewFlagPage';
 
 ReactDOM.render(
       <Router>
@@ -21,6 +22,7 @@ ReactDOM.render(
             <Route exact path='/contact' component={ContactPage} />
             <Route exact path='/custom' component ={CustomForm} />
             <Route exact path='/cart' component={ShoppingCartPage} />
+            <Route exact path='/viewflag' component={ViewFlagPage} />
           </Provider>
         </div>
       </Router>,
