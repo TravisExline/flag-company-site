@@ -13,6 +13,12 @@
 .description-holder {
     background-color: #F1F1F1;
     width: 720px;
+    height: 933px;
+    /* margin-top: 100px; */
+}
+
+.flag-name {
+    margin-top: 200px;
 }
 
 .description-flavor-head, .description-flavor, .flag-name, .flag-flavor, .return-flavor-head, .return-flavor {
@@ -25,6 +31,14 @@
     font-family: 'Overpass Mono', monospace;
 }
 
+.description-flavor, .return-flavor, .drop-down-holder {
+    margin-bottom: 7%;
+}
+
 .flag-name, .flag-flavor {
     font-family: 'Overpass', sans-serif;
+}
+
+.flag-flavor {
+    margin-bottom: 73px;
 }
