@@ -7,6 +7,7 @@ import WhyBuy from './WhyBuy'
 import FlagDisplay from '../components/FlagDisplay'
 import CustomFormHolder from './CustomFormHolder'
 import MyCalendar from './MyCalendar'
+import { connect } from 'react-redux'
 
 class ViewFlagPage extends React.Component {
     render() {
@@ -22,7 +23,7 @@ class ViewFlagPage extends React.Component {
                         <h1 className='view-name'>American Flag</h1>
                         <h2 className='flag-flavor'>The Traditional American Flag, handcrafted on real, American wood.</h2>
                         <div className='drop-down-holder'>
-                            <SizeOptionsDrop />
+                            <SizeOptionsDrop smallPrice={this.props.flags.flags[1].smallPrice} medPrice={this.props.flags.flags[1].medPrice} lrgPrice={this.props.flags.flags[1].lrgPrice}/>
                         </div>
                         <h3 className='description-flavor-head'>
                             + DESCRIPTION
@@ -47,4 +48,8 @@ class ViewFlagPage extends React.Component {
     }
 }
 
-export default ViewFlagPage
+const mapStateToProps = (state) => {
+    return {flags: state.flagsReducer}
+}
+
+export default connect(mapStateToProps) (ViewFlagPage)

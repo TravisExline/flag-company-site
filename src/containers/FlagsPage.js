@@ -23,7 +23,7 @@ class FlagsPage extends React.Component {
                 </div>
                 <div className='all-flags-holder'>
                     {this.props.flagDisplay.flags.map((flag) => (
-                        <FlagCard id={flag.id}flag={flag.photo} name={flag.name} smallPrice={flag.smallPrice} medPrice={flag.medPrice} lrgPrice={flag.lrgPrice}/>
+                        <FlagCard id={flag.id} flag={flag.photo} name={flag.name} smallPrice={flag.smallPrice} medPrice={flag.medPrice} lrgPrice={flag.lrgPrice}/>
                     ))}
                 </div>
                 <WhyBuy />
