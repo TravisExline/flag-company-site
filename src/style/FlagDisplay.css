@@ -12,9 +12,10 @@
 }
 
 .show-btn {
-    background-color: #0073B4;
+    background-color: white;
     font-family: 'Overpass Mono', monospace;
-    color: white;
+    color: #0073B4;
+    border-color: #0073B4;
     width: 121px;
     height: 35px;
     margin-left: 48%;

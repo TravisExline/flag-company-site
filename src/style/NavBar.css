@@ -20,6 +20,7 @@
     color: white;
     font-family: 'Overpass Mono', monospace;
     align-self: center;
+    transition-duration: .5s;
 }
 
 .custom-flag-btn {
@@ -29,4 +30,9 @@
     color: white;
     font-family: 'Overpass Mono', monospace;
     align-self: center;
+    transition-duration: .5s;
+}
+
+.custom-flag-btn:hover, .view-flags-button:hover {
+    background-color: #D22F35;
 }
