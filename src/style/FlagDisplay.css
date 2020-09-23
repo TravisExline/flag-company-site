@@ -1,5 +1,6 @@
 .flag-display-list {
     display: flex;
+    flex: 1;
     align-content: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -26,6 +27,7 @@
 }
 
 .landing-flag-display {
+    flex: 1 0 33%;
     margin-top: 125px;
 }
 
