@@ -42,16 +42,14 @@ class FlagDisplay extends React.Component {
 
     render() {
         return(
-            <div className='flag-display-holder'>
-                <div className='flag-list-holder'>
-                    <div className='flag-display-list'>
-                         {this.state.flagPhotos.slice(0, this.state.itemsToShow).map((flag, i) => 
-                            <div className='landing-flag-display' key={i}>
-                            <img className="landing-display-photo" src={flag.img} alt='flag'></img>
-                            <h3 className="landing-flag-name">{flag.name}</h3>
-                        </div>)}
-                    </div>
-                </div>
+            <div className='flag-display-holder'> 
+                <div className='flag-display-list'>
+                    {this.state.flagPhotos.slice(0, this.state.itemsToShow).map((flag, i) => 
+                        <div className='landing-flag-display' key={i}>
+                        <img className="landing-display-photo" src={flag.img} alt='flag'></img>
+                        <h3 className="landing-flag-name">{flag.name}</h3>
+                    </div>)}
+                 </div>
                 <button className='show-btn' onClick={this.showMore}>
                     {this.state.expanded ? (
                         <span>Show less</span>

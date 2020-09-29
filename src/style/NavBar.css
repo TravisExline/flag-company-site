@@ -17,6 +17,7 @@
     width: 136px;
     height: 60px;
     background-color: #AD2328;
+    border: none;
     color: white;
     font-family: 'Overpass Mono', monospace;
     align-self: center;
@@ -27,6 +28,7 @@
     height: 62px;
     width: 225px;
     background-color: #AD2328;
+    border: none;
     color: white;
     font-family: 'Overpass Mono', monospace;
     align-self: center;
@@ -35,4 +37,5 @@
 
 .custom-flag-btn:hover, .view-flags-button:hover {
     background-color: #D22F35;
+    border: none;
 }

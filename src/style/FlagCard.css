@@ -25,6 +25,7 @@
 
 .view-flag-btn {
     background-color: #0073B4;
+    border: none;
     color: white;
     height: 35px;
     width: 120px;
@@ -34,4 +35,5 @@
 
 .view-flag-btn:hover {
     background-color: #018DDC;
+    border: none;
 }
