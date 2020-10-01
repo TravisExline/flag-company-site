@@ -14,11 +14,12 @@
 .show-btn {
     background-color: white;
     font-family: 'Overpass Mono', monospace;
+    font-size: .7vw;
     color: #0073B4;
     border-color: #0073B4;
     width: 5vw;
     margin-left: 48vw;
-    margin-bottom: 116px;
+    margin-bottom: 11vh;
 }
 
 .landing-flag-name {
@@ -28,7 +29,7 @@
 
 .landing-flag-display {
     flex: 1 0 33%;
-    margin-top: 125px;
+    margin-top: 12vh;
 }
 
 .flag-display-holder {
