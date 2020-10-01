@@ -16,8 +16,8 @@
     font-family: 'Overpass Mono', monospace;
     color: #0073B4;
     border-color: #0073B4;
-    width: 5%;
-    margin-left: 48%;
+    width: 5vw;
+    margin-left: 48vw;
     margin-bottom: 116px;
 }
 
@@ -33,5 +33,5 @@
 
 .flag-display-holder {
     background-color: #F1F1F1;
-    width: 100vw;
+    max-width: 100vw;
 }
