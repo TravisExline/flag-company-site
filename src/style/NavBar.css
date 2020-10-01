@@ -2,29 +2,29 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    height: 112px;
+    /* height: 112px; */
     max-width: 100vw;
-    /* padding-right: 48px; */
 }
 
 .landing-link, .flags-link, .contact-link {
     font-family: 'Overpass Mono', monospace;
-    padding-right: 20px;
-    font-size: 25px;
+    padding-right: 1vw;
+    font-size: 1.2vw;
 }
 
 .about-link {
-    font-size: 25px;
+    font-size: 1.2vw;
     font-family: 'Overpass Mono', monospace;
 }
 
 .view-flags-button {
-    width: 136px;
-    height: 60px;
+    width: 9.6vw;
+    height: 13%;
     background-color: #AD2328;
     border: none;
     color: white;
     font-family: 'Overpass Mono', monospace;
+    font-size: 1vw;
     align-self: center;
     transition-duration: .5s;
 }

@@ -18,7 +18,7 @@ class ViewFlagPage extends React.Component {
                     <div className='nav-holder'><NavBar/></div>
                 </div>
                 <div className='flex-holder'>
-                    <img className='flag-img' src={display1}></img>
+                    <img className='flag-img' alt="" src={display1}></img>
                     <div className='description-holder'>
                         <h1 className='view-name'>American Flag</h1>
                         <h2 className='flag-flavor'>The Traditional American Flag, handcrafted on real, American wood.</h2>

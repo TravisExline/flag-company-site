@@ -3,7 +3,7 @@ import moment from 'moment'
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import '../style/Calendar.css'
 
-const today = moment().format('dddd, MMMM D, YYYY')
+// const today = moment().format('dddd, MMMM D, YYYY')
 
 const myEvents = [
     {

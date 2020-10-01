@@ -2,20 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 96.9vw;
 }
 
 #landing-company-name {
     text-align: left;
     margin: 0;
-    font-size: 42px;
+    font-size: 2vw;
     padding-left: 2vw;
     padding-top: 1vh;
     width: 15vw;
-}
-
-.nav-holder {
-    padding-right: 25px;
 }
 
 .section-image-left {
@@ -30,7 +26,7 @@
 
 .single-nav-holder {
     margin-left: 8.75vw;
-    margin-top: 202px;
+    margin-top: 7.5%;
     font-size: 1.68vw;
     font-family: 'Overpass', sans-serif;
     width: 19vw;

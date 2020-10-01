@@ -21,7 +21,7 @@ class FlagCard extends React.Component {
     render() {
         return(
             <div className="flag-photo-holder">
-                <img src={this.props.flag} className="flag-page-photos"></img>
+                <img src={this.props.flag} alt='flag' className="flag-page-photos"></img>
                 <h2 className="flag-name">{this.props.name}</h2>
                 <NavLink
                     to='/viewflag'

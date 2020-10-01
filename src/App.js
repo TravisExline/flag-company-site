@@ -1,6 +1,5 @@
 import React from 'react';
 import './style/App.css';
-import BackgroundImage from './images/flag-company-name-2.jpg'
 import LandingPage from './containers/LandingPage';
 
 function App() {

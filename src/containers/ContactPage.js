@@ -1,6 +1,5 @@
 import React from 'react'
 import NavBar from '../components/NavBar'
-import MyCalendar from './MyCalendar'
 import '../style/Contact.css'
 
 class ContactPage extends React.Component {
