@@ -1,6 +1,10 @@
 .in-person-holder {
     text-align: center;
-    width: 300px;
+    width: 20%;
+}
+
+.calendar-header {
+    width: 20%;
 }
 
 .event-name, .calendar-header {
@@ -14,6 +18,7 @@
 .calendar-holder {
     margin-top: 10%;
     margin-bottom: 10%;
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
 }

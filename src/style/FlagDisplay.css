@@ -8,7 +8,7 @@
 }
 
 .landing-display-photo {
-    width: 250px;
+    width: 20vw;
 }
 
 .show-btn {
@@ -16,8 +16,7 @@
     font-family: 'Overpass Mono', monospace;
     color: #0073B4;
     border-color: #0073B4;
-    width: 121px;
-    height: 35px;
+    width: 5%;
     margin-left: 48%;
     margin-bottom: 116px;
 }
@@ -34,4 +33,5 @@
 
 .flag-display-holder {
     background-color: #F1F1F1;
+    width: 100vw;
 }

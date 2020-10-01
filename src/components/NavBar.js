@@ -12,16 +12,16 @@ const NavBar = () =>
         </NavLink>
         <NavLink className='flags-link'
             to='/flags'
-            exact>Flags
+            exact>Wooden Flags
         </NavLink>
         <NavLink className='about-link'
             to='/about'
             exact>About
         </NavLink>
-        <NavLink className='contact-link'
+        {/* <NavLink className='contact-link'
             to='/contact'
             exact>Contact
-        </NavLink>
+        </NavLink> */}
         {/* <NavLink className='cart-link'
             to='/contact'
             exact><FontAwesomeIcon icon={faShoppingCart}/></NavLink> */}
