@@ -2,9 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    max-height: 350px;
-    width: 400px;
-    margin-left: 200px;
+    width: 20vw;
+    margin-left: 8vw;
 }
 
 .flag-page-photos {

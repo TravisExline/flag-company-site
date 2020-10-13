@@ -1,9 +1,10 @@
 .all-flags-holder {
-    margin-top: 35px;
+    margin-top: 1%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 100vw;
     height: 1000px;
     background-color: #F1F1F1;
 }
