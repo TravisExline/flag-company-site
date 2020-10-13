@@ -1,6 +1,8 @@
 .why-buy-holder {
-    margin-top: 250px;
-    height: 420px;
+    width: 100vw;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    /* height: 420px; */
 }
 
 .why-buy-header {
@@ -9,7 +11,7 @@
 }
 
 .why-buy-p {
-    margin-left: 950px;
+    margin-left: 50vw;
     font-family:  'Overpass', sans-serif;
-    width: 420px;
+    width: 20vw;
 }
