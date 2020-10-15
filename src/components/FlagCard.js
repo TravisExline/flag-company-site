@@ -15,7 +15,7 @@ class FlagCard extends React.Component {
         this.setState({
             flagId: this.props.id
         })
-        debugger
+        // debugger
     }
 
     render() {
