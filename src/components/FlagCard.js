@@ -11,11 +11,12 @@ class FlagCard extends React.Component {
 
 
 
-    selectFlagData = () => {
+    selectFlagData = (e) => {
+        console.log(e)
         this.setState({
-            flagId: this.props.id
+            flagId: e
         })
-        // debugger
+        debugger
     }
 
     render() {

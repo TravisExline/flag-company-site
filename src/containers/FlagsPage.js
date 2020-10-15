@@ -12,6 +12,7 @@ class FlagsPage extends React.Component {
 
     componentDidMount() {
         this.props.fetchFlags()
+        // debugger
     }
 
     render() {
