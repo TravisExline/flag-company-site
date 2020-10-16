@@ -36,3 +36,25 @@
     background-color: #F1F1F1;
     max-width: 100vw;
 }
+
+@media screen and (max-width: 600px) {
+    .show-btn {
+        width: 20vw;
+        font-size: 2.5vw;
+        margin-left: 40vw;
+        margin-top: 2vh;
+        margin-bottom: 8vh;
+    }
+
+    .landing-flag-display {
+        margin-top: 10vh;
+    }
+
+    .landing-display-photo {
+        width: 75vw;
+    }
+
+    .landing-flag-name {
+        font-size: 4vw;
+    }
+}
