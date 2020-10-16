@@ -8,3 +8,9 @@
     height: 1000px;
     background-color: #F1F1F1;
 }
+
+@media screen and (max-width: 600px) {
+    .all-flags-holder {
+        height: auto;
+    }
+}
