@@ -49,7 +49,7 @@ class ViewFlagPage extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    return {flags: state.testFlagReducer}
+    return {flags: state.flagsReducer}
 }
 
 export default connect(mapStateToProps) (ViewFlagPage)
