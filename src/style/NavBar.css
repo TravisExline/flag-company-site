@@ -44,3 +44,15 @@
     background-color: #D22F35;
     border: none;
 }
+
+@media screen and (max-width: 600px) {
+    .landing-link, .flags-link, .contact-link, .about-link {
+        font-size: 3vw;
+    }
+
+    .view-flags-button {
+        width: 20vw;
+        height: 4vh;
+        font-size: 2vw;
+    }
+}

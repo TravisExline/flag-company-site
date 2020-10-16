@@ -21,13 +21,21 @@
 }
 
 .img-holder {
-    max-width: 50%;
+    max-width: 50vw;
 }
 
 .single-nav-holder {
     margin-left: 8.75vw;
-    margin-top: 7.5%;
+    margin-top: 4vh;
     font-size: 1.68vw;
     font-family: 'Overpass', sans-serif;
     width: 19vw;
+}
+
+
+@media screen and (max-width: 600px) {
+    #landing-company-name {
+        font-size: 3vw;
+        width: 20vw;
+    }
 }
