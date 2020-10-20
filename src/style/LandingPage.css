@@ -38,4 +38,8 @@
         font-size: 3vw;
         width: 20vw;
     }
+
+    .section-image-left {
+        width: 25vh;
+    }
 }
