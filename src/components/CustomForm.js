@@ -24,7 +24,7 @@ class CustomForm extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className='form-holder'>
                 <div className="custom-header">
                     <h1 id="custom-company-name">Scorched Wood Flag Company</h1>
                     <div className='nav-holder'><NavBar/></div>
