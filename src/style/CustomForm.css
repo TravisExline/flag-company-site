@@ -28,14 +28,16 @@ input {
     width: 25vw;
     margin-bottom: 2vh;
     margin-top: 2vh;
+    font-family: 'Overpass Mono', monospace;
 }
 
 .submit-flag {
     border: none;
+    border-radius: 5px;
     color: white;
     background-color: #AD2328;
-    font-family: 'Overpass Mono', monospace;
     transition-duration: .5s;
+    margin-bottom: 4vh;
 }
 
 .submit-flag:hover {
