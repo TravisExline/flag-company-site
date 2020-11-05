@@ -1,0 +1,15 @@
+.custom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96.9vw;
+}
+
+#custom-company-name {
+    text-align: left;
+    margin: 0;
+    font-size: 2vw;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    width: 15vw;
+}
