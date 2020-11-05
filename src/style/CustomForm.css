@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 2vh;
     width: 96.9vw;
 }
 
@@ -28,4 +29,17 @@ input {
     width: 25vw;
     margin-bottom: 2vh;
     margin-top: 2vh;
+}
+
+.submit-flag {
+    border: none;
+    color: white;
+    background-color: #AD2328;
+    font-family: 'Overpass Mono', monospace;
+    transition-duration: .5s;
+}
+
+.submit-flag:hover {
+    background-color: #D22F35;
+    border: none;
 }
