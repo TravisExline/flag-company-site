@@ -5,6 +5,7 @@ import showpage1 from '../images/showpage1.jpg'
 import NavBar from '../components/NavBar'
 import MyCalendar from '../containers/MyCalendar'
 import CustomFormHolder from './CustomFormHolder'
+import BottomNav from '../components/BottomNav'
 import "../style/LandingPage.css"
 
 class LandingPage extends React.Component {
@@ -30,6 +31,10 @@ class LandingPage extends React.Component {
                 <CustomFormHolder />
                 <div className = 'calendar'>
                     <MyCalendar />
+                </div>
+                <div className='landing-footer'>
+                    <h1 id='landing-company-name-footer'>Scorched Wood Flag Company</h1>
+                    <div className='footer-nav-holder'><BottomNav /></div>
                 </div>
             </div>
         )

@@ -1,0 +1,12 @@
+.bottom-nav-holder {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 1vh;
+}
+
+.bottom-about-link, .bottom-flags-link, .bottom-custom-link {
+    font-family: 'Overpass Mono', monospace;
+    padding-right: 2vw;
+    font-size: 1.2vw;
+}
