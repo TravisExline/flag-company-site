@@ -7,6 +7,7 @@ import { connect } from 'react-redux'
 import CustomFormHolder from './CustomFormHolder'
 import WhyBuy from './WhyBuy'
 import MyCalendar from './MyCalendar'
+import BottomNav from '../components/BottomNav'
 
 class FlagsPage extends React.Component {
 
@@ -30,6 +31,10 @@ class FlagsPage extends React.Component {
                 <WhyBuy />
                 <CustomFormHolder />
                 <MyCalendar />
+                <div className='landing-footer'>
+                    <h1 id='landing-company-name-footer'>Scorched Wood Flag Company</h1>
+                    <div className='footer-nav-holder'><BottomNav /></div>
+                </div>
             </div>
         )
     }

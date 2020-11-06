@@ -6,6 +6,7 @@ import {connect} from 'react-redux'
 import FlagDisplay from './FlagDisplay'
 import MyCalendar from '../containers/MyCalendar'
 import WhyBuy from '../containers/WhyBuy'
+import BottomNav from '../components/BottomNav'
 
 class CustomForm extends React.Component {
 
@@ -50,6 +51,10 @@ class CustomForm extends React.Component {
                 <WhyBuy />
                 <FlagDisplay />
                 <MyCalendar />
+                <div className='landing-footer'>
+                    <h1 id='landing-company-name-footer'>Scorched Wood Flag Company</h1>
+                    <div className='footer-nav-holder'><BottomNav /></div>
+                </div>
             </div>
         )
     }
