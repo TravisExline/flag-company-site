@@ -36,7 +36,12 @@ class CustomForm extends React.Component {
                     <div className='custom-form-holder'>
                         <form className='custom-flag-form' onSubmit={event => this.handleSubmit(event)}>
                             <input className='design-description' type='text' name='customDesign' placeholder='Describe Your Design' onChange={event => this.handleChange(event)} value={this.props.customDesign}/>
-                            <input className='design-photo' type='img' name='customImg' placeholder='Upload an Image of Your Design' onChange={event => this.handleChange(event)} value={this.props.customImg}/>
+                            <input className='design-photo' type='file' accept='image/*' />
+                            {/* this works and is an alternative, just need to use javascript to make the selected file visable
+                            <label className='custom-file-upload'>
+                                <input type="file" accept='image/*' />
+                                Upload Your Image
+                            </label> */}
                             <input className='customer-email' type='text' name='customerEmail' placeholder='Enter Your Email' onChange={event => this.handleChange(event)} value={this.props.customerEmail} />
                             <input className='submit-flag' type='submit' value='Request This Design' />
                         </form>

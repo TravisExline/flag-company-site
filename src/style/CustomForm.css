@@ -31,6 +31,11 @@ input {
     font-family: 'Overpass Mono', monospace;
 }
 
+.design-photo {
+    margin-bottom: -1vh;
+    font-size: 1.5vh;
+}
+
 .submit-flag {
     border: none;
     border-radius: 5px;
