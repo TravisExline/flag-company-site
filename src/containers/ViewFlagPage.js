@@ -8,6 +8,7 @@ import FlagDisplay from '../components/FlagDisplay'
 import CustomFormHolder from './CustomFormHolder'
 import MyCalendar from './MyCalendar'
 import { connect } from 'react-redux'
+import BottomNav from '../components/BottomNav'
 
 class ViewFlagPage extends React.Component {
     render() {
@@ -43,6 +44,10 @@ class ViewFlagPage extends React.Component {
                 <FlagDisplay />
                 <CustomFormHolder />
                 <MyCalendar />
+                <div className='landing-footer'>
+                    <h1 id='landing-company-name-footer'>Scorched Wood Flag Company</h1>
+                    <div className='footer-nav-holder'><BottomNav /></div>
+                </div>
             </div>
         )
     }
