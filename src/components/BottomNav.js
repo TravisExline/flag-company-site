@@ -3,6 +3,8 @@ import {NavLink} from 'react-router-dom'
 import '../style/BottomNav.css'
 
 const BottomNav = () => 
+<div className='landing-footer'>
+    <h1 id='landing-company-name-footer'>Scorched Wood Flag Company</h1>
     <div className='bottom-nav-holder'>
         <NavLink className='bottom-flags-link'
             to='/flags'
@@ -17,5 +19,6 @@ const BottomNav = () =>
             exact>Request Custom Flag
         </NavLink>
     </div>
+</div>
 
 export default BottomNav

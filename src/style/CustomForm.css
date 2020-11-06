@@ -15,6 +15,10 @@
     width: 15vw;
 }
 
+.custom-form-holder {
+    margin-top: 2vh;
+}
+
 .custom-flag-form {
     width: 100%;
     display: flex;

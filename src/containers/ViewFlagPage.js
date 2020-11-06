@@ -14,10 +14,7 @@ class ViewFlagPage extends React.Component {
     render() {
         return(
             <div>
-                <div className="landing-header">
-                    <h1 id="landing-company-name">Scorched Wood Flag Company</h1>
-                    <div className='nav-holder'><NavBar/></div>
-                </div>
+                <NavBar />
                 <div className='flex-holder'>
                     <img className='flag-img' alt="" src={display1}></img>
                     <div className='description-holder'>
@@ -44,10 +41,7 @@ class ViewFlagPage extends React.Component {
                 <FlagDisplay />
                 <CustomFormHolder />
                 <MyCalendar />
-                <div className='landing-footer'>
-                    <h1 id='landing-company-name-footer'>Scorched Wood Flag Company</h1>
-                    <div className='footer-nav-holder'><BottomNav /></div>
-                </div>
+                <BottomNav />
             </div>
         )
     }

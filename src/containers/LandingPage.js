@@ -13,10 +13,7 @@ class LandingPage extends React.Component {
     render() {
         return (
             <div>
-                <div className="landing-header">
-                    <h1 id="landing-company-name">Scorched Wood Flag Company</h1>
-                    <div className='nav-holder'><NavBar/></div>
-                </div>
+                <NavBar />
                 <div className="section-image-left">
                         <img className='img-holder' src={showpage1} alt='flag filler'/>  
                     <div className='single-nav-holder'>
@@ -32,10 +29,7 @@ class LandingPage extends React.Component {
                 <div className = 'calendar'>
                     <MyCalendar />
                 </div>
-                <div className='landing-footer'>
-                    <h1 id='landing-company-name-footer'>Scorched Wood Flag Company</h1>
-                    <div className='footer-nav-holder'><BottomNav /></div>
-                </div>
+                <BottomNav />
             </div>
         )
     }

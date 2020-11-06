@@ -30,10 +30,7 @@ class CustomForm extends React.Component {
         return (
             <div>
                 <div className='form-holder'>
-                    <div className="custom-header">
-                        <h1 id="custom-company-name">Scorched Wood Flag Company</h1>
-                        <div className='nav-holder'><NavBar/></div>
-                    </div>
+                    <NavBar />
                     <div className='custom-form-holder'>
                         <form className='custom-flag-form' onSubmit={event => this.handleSubmit(event)}>
                             <input className='design-description' type='text' name='customDesign' placeholder='Describe Your Design' onChange={event => this.handleChange(event)} value={this.props.customDesign}/>
@@ -51,10 +48,7 @@ class CustomForm extends React.Component {
                 <WhyBuy />
                 <FlagDisplay />
                 <MyCalendar />
-                <div className='landing-footer'>
-                    <h1 id='landing-company-name-footer'>Scorched Wood Flag Company</h1>
-                    <div className='footer-nav-holder'><BottomNav /></div>
-                </div>
+                <BottomNav />
             </div>
         )
     }

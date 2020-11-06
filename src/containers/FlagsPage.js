@@ -19,10 +19,7 @@ class FlagsPage extends React.Component {
     render() {
         return(
             <div>
-                <div className="landing-header">
-                    <h1 id="landing-company-name">Scorched Wood Flag Company</h1>
-                    <div className='nav-holder'><NavBar/></div>
-                </div>
+                <NavBar />
                 <div className='all-flags-holder'>
                     {this.props.flagDisplay.flags.map((flag) => (
                         <FlagCard id={flag.id} flag={flag.photo} name={flag.name} smallPrice={flag.smallPrice} medPrice={flag.medPrice} lrgPrice={flag.lrgPrice}/>
@@ -31,10 +28,7 @@ class FlagsPage extends React.Component {
                 <WhyBuy />
                 <CustomFormHolder />
                 <MyCalendar />
-                <div className='landing-footer'>
-                    <h1 id='landing-company-name-footer'>Scorched Wood Flag Company</h1>
-                    <div className='footer-nav-holder'><BottomNav /></div>
-                </div>
+                <BottomNav />
             </div>
         )
     }

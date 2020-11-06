@@ -20,10 +20,7 @@ class AboutMePage extends React.Component {
                     <img src='' alt="Founder and Craftsman" className="founder-photo"></img>
                 </div>
                 <p className="founder-craftsman-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <div className='landing-footer'>
-                    <h1 id='landing-company-name-footer'>Scorched Wood Flag Company</h1>
-                    <div className='footer-nav-holder'><BottomNav /></div>
-                </div>
+                <BottomNav />
             </div>
         )
     }
