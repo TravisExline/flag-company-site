@@ -8,18 +8,24 @@ class AboutMePage extends React.Component {
         return (
             <div>
                 <NavBar />
-                <h1 className="about-header">Scorched Wood Flag Co.</h1>
-                <p className="about-content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <div className='about-company'>
+                    <h1 className="about-header">Scorched Wood Flag Co.</h1>
+                    <p className="about-content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <img src="" alt="Workshop" className="workshop-photo"></img>
-                <h2 className="team-heading">The Team</h2>
-                <h3 className="founder-craftsman">Founder and Craftsman -  Todd Exline</h3>
-                <div className="founder-photo-holder">
-                    <img src='' alt="Founder and Craftsman" className="founder-photo"></img>
+                    </p>
                 </div>
-                <p className="founder-craftsman-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div className='team-holder'>
+                    <h1 id='team-header'>The Team</h1>
+                    <div className='founder-holder'>
+                        <h2 id='founder-header'>Founder and Craftsman - Todd Exline</h2>
+                        <p className="founder-craftsman-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div className='web-developer-holder'>
+                        <h2 id='web-dev-header'>Web Developer - Travis Exline</h2>
+                        <p className='web-dev-details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
                 <BottomNav />
             </div>
         )

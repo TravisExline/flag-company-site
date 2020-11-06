@@ -1,39 +1,43 @@
-.about-header {
-    text-align: center;
-    font-size: 50px; 
+.about-header, #team-header, #founder-header, #web-dev-header {
+    font-family: 'Overpass Mono', monospace;
 }
 
-.about-content {
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-    width: 1500px;
-}
-
-.team-heading {
-    margin-top: 95px;
-    font-size: 35px;
+.about-header, #team-header {
+    font-size: 4.3vh;
     text-align: center;
 }
 
-.founder-craftsman {
-    font-size: 25px;
-    margin-left: 300px;
+#founder-header, #web-dev-header {
+    font-size: 3vh;
 }
 
-.workshop-photo {
-    margin: auto;
+.about-content, .founder-craftsman-details, .web-dev-details {
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.9vh;
 }
 
-.founder-photo-holder {
-    height: 300px;
-    width: 250px;
-    background-color: rgba(65, 105, 225, 0.8);
-    border-radius: 5px;
-    margin-left: 330px;
+.about-company, .founder-holder {
+    width: 100vw;
+    height: 25vh;
+    background-color: #F1F1F1;
 }
 
-.founder-craftsman-details {
-    font-size: 20px;
-    margin-left: 330px;
+#founder-header, .about-header {
+    padding-top: 4vh;
+}
+
+.about-content, .founder-craftsman-details, .web-dev-details, #founder-header, #web-dev-header {
+    text-align: left;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.web-developer-holder {
+    height: 25vh;
+}
+
+.about-company{
+    margin-bottom: 8vh;
+    padding-bottom: 5vh;
 }

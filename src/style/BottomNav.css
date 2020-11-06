@@ -10,3 +10,20 @@
     padding-right: 2vw;
     font-size: 1.2vw;
 }
+
+.landing-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1F1F1;
+    padding-top: 1.5vh;
+}
+
+#landing-company-name-footer {
+    text-align: left;
+    margin: 0;
+    font-size: 2vw;
+    padding-left: 2vw;
+    padding-bottom: 1vh;
+    width: 15vw;
+}
