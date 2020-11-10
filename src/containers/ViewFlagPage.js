@@ -12,16 +12,17 @@ import BottomNav from '../components/BottomNav'
 
 class ViewFlagPage extends React.Component {
     render() {
+        debugger
         return(
             <div>
                 <NavBar />
                 <div className='flex-holder'>
-                    <img className='flag-img' alt="" src={display1}></img>
+                    <img className='flag-img' alt="flag" src={this.props.location.state.flagImg}></img>
                     <div className='description-holder'>
-                        <h1 className='view-name'>American Flag</h1>
-                        <h2 className='flag-flavor'>The Traditional American Flag, handcrafted on real, American wood.</h2>
+                        <h1 className='view-name'>{this.props.location.state.flagName}</h1>
+                        <h2 className='flag-flavor'>The {this.props.location.state.flagName}, handcrafted on real, American wood.</h2>
                         <div className='drop-down-holder'>
-                            <SizeOptionsDrop smallPrice={this.props.flags.flags[1].smallPrice} medPrice={this.props.flags.flags[1].medPrice} lrgPrice={this.props.flags.flags[1].lrgPrice}/>
+                            <SizeOptionsDrop smallPrice={this.props.location.state.smPrice} medPrice={this.props.location.state.medPrice} lrgPrice={this.props.location.state.lrgPrice}/>
                         </div>
                         <h3 className='description-flavor-head'>
                             + DESCRIPTION
