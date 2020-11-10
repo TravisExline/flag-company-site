@@ -2,7 +2,6 @@ import React from 'react'
 import NavBar from '../components/NavBar'
 import '../style/About.css'
 import BottomNav from '../components/BottomNav'
-import DevImg from '../images/0.jpg'
 
 class AboutMePage extends React.Component {
     render() {
