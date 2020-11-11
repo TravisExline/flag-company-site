@@ -5,21 +5,6 @@ import '../style/FlagCard.css'
 
 
 class FlagCard extends React.Component {
-    constructor() {
-        super()
-        this.state = {
-            flagId: ""
-        }
-    }
-
-    selectFlagData = (e) => {
-        console.log(e)
-        this.setState({ 
-            flagId: e
-        })
-        debugger
-    }
-
     render() {
         return(
             <div className="flag-photo-holder">
@@ -35,11 +20,12 @@ class FlagCard extends React.Component {
                             medPrice: this.props.medPrice,
                             lrgPrice: this.props.lrgPrice}
                     }}
-                    exact><button value={this.props.id}className='view-flag-btn' onClick={e => this.selectFlagData(e.target.value)}>View Flag</button>
+                    exact><button value={this.props.id}className='view-flag-btn'>View Flag</button>
                 </NavLink>
             </div>
         )
     }
 }
+
 
 export default (FlagCard)

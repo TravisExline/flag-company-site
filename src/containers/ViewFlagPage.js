@@ -12,7 +12,6 @@ import BottomNav from '../components/BottomNav'
 
 class ViewFlagPage extends React.Component {
     render() {
-        debugger
         return(
             <div>
                 <NavBar />

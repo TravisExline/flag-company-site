@@ -11,10 +11,10 @@ import BottomNav from '../components/BottomNav'
 
 class FlagsPage extends React.Component {
 
-    componentDidMount() {
-        this.props.fetchFlags()
-        // debugger
-    }
+    // componentDidMount() {
+    //     this.props.fetchFlags()
+    //     // debugger
+    // }
 
     render() {
         return(
@@ -35,7 +35,7 @@ class FlagsPage extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-    return {flagDisplay: state.flagsReducer, newFlag: state.testFlagReducer}
+    return {flagDisplay: state.flagsReducer}
 }
 
-export default connect(mapStateToProps, { fetchFlags })(FlagsPage)
+export default connect(mapStateToProps)(FlagsPage)

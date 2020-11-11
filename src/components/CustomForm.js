@@ -42,6 +42,7 @@ class CustomForm extends React.Component {
                     <NavBar />
                     <div className='custom-form-holder'>
                         <form className='custom-flag-form' onSubmit={event => this.handleSubmit(event)}>
+                            <h1 className='order-here'>Order Here!</h1>
                             <input className='design-description' type='text' name='customDesign' placeholder='Describe Your Design' onChange={event => this.handleChange(event)} value={this.props.customDesign}/>
                             <input className='customer-name' type='text' name='customerName' placeholder='Enter Your Name' onChange={event => this.handleChange(event)} value={this.props.customerName} />
                             <input className='customer-email' type='text' name='customerEmail' placeholder='Enter Your Email' onChange={event => this.handleChange(event)} value={this.props.customerEmail} />

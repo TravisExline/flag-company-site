@@ -7,6 +7,7 @@ import MyCalendar from '../containers/MyCalendar'
 import CustomFormHolder from './CustomFormHolder'
 import BottomNav from '../components/BottomNav'
 import "../style/LandingPage.css"
+import Order from './Order'
 
 class LandingPage extends React.Component {
 

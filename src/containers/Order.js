@@ -1,4 +1,6 @@
 import React from 'react'
+import { connect } from 'react-redux'
+import SizeOptionsDrop from '../components/SizeOptionsDrop'
 
 class Order extends React.Component {
     render() {
@@ -8,10 +10,12 @@ class Order extends React.Component {
                     <input type='text' className='customerEmail' placeholder='Enter Your Email'/>
                     <input type='text' className='customerName' placeholder='Enter Your Name'/>
                     <select form='orderForm'>
-                        <option value='flag1'>Flag1</option>
-                        <option value='flag4'>Flag4</option>
-                        <option value='flag3'>Flag3</option>
-                        <option value='flag2'>Flag2</option>
+                        {this.props.flagDisplay.flags.map((flag) => (
+                            <option value={flag.name} className='flag-name'>{flag.name}</option>
+                         ))}
+                        {this.props.flagDisplay.flags.map((flag) => (
+                            <option value="price"></option>
+                         ))}
                     </select>
                     <input type='submit' />
                 </form>
@@ -20,4 +24,8 @@ class Order extends React.Component {
     }
 }
 
-export default Order
+const mapStateToProps = (state) => {
+    return {flagDisplay: state.flagsReducer}
+}
+
+export default connect(mapStateToProps)(Order)
