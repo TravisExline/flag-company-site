@@ -8,39 +8,123 @@ import '../style/Calendar.css'
 const myEvents = [
     {
         eventName: 'Kane County Flea Market',
-        eventDate:  moment('Saturday, October 3, 2020').format('dddd, MMMM D, YYYY'),
+        eventDate:  moment('Saturday, March 6, 2021').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
     },
     {
         eventName: 'Kane County Flea Market',
-        eventDate: moment('Sunday, October 4, 2020').format('dddd, MMMM D, YYYY'),
+        eventDate: moment('Sunday, March 7, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '7am',
+        eventEnd: '4pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Saturday, April 10, 2021').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
     },
     {
         eventName: 'Kane County Flea Market',
-        eventDate: moment('Saturday, October 31, 2020').format('dddd, MMMM D, YYYY'),
+        eventDate: moment('Sunday, April 11, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '7am',
+        eventEnd: '4pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Saturday, May 1, 2021').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
     },
     {
         eventName: 'Kane County Flea Market',
-        eventDate: moment('Sunday, November 1, 2020').format('dddd, MMMM D, YYYY'),
+        eventDate: moment('Sunday, May 2, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '7am',
+        eventEnd: '4pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Saturday, June 5, 2021').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
     },
     {
         eventName: 'Kane County Flea Market',
-        eventDate: moment('Saturday, December 5, 2020').format('dddd, MMMM D, YYYY'),
+        eventDate: moment('Sunday, June 6, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '7am',
+        eventEnd: '4pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Saturday, July 3, 2021').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
     },
     {
         eventName: 'Kane County Flea Market',
-        eventDate: moment('Sunday, December 6, 2020').format('dddd, MMMM D, YYYY'),
+        eventDate: moment('Sunday, July 4, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '7am',
+        eventEnd: '4pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Saturday, July 31, 2021').format('dddd, MMMM D, YYYY'),
         eventStart: '12pm',
         eventEnd: '5pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Sunday, August 1, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '7am',
+        eventEnd: '4pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Saturday, September 4, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '12pm',
+        eventEnd: '5pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Sunday, September 5, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '7am',
+        eventEnd: '4pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Saturday, October 2, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '12pm',
+        eventEnd: '5pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Sunday, October 3, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '7am',
+        eventEnd: '4pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Saturday, November 6, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '12pm',
+        eventEnd: '5pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Sunday, November 7, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '7am',
+        eventEnd: '4pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Saturday, December 4, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '12pm',
+        eventEnd: '5pm'
+    },
+    {
+        eventName: 'Kane County Flea Market',
+        eventDate: moment('Sunday, December 5, 2021').format('dddd, MMMM D, YYYY'),
+        eventStart: '7am',
+        eventEnd: '4pm'
     }
 ]
 
