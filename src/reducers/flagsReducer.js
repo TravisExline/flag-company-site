@@ -7,6 +7,7 @@ import display6 from '../images/display6.jpg'
 import display7 from '../images/display7.jpg'
 import display8 from '../images/display8.jpg'
 import display9 from '../images/display9.jpg'
+import ADD_TO_CART from '..actions/cartItemActions'
 
 
 const initState = {
@@ -20,11 +21,16 @@ const initState = {
         {id: 7, photo: display7, name: 'Tread American Flag', smallPrice: 'Small (18.5") - $55', medPrice: 'Medium (26") - $75', lrgPrice: 'Large (37") - $110'},
         {id: 8, photo: display8, name: 'US Navy American Flag', smallPrice: 'Small (18.5") - $55', medPrice: 'Medium (26") - $75', lrgPrice: 'Large (37") - NOT AVAILABLE'},
         {id: 9, photo: display9, name: 'Thin Red Line American Flag', smallPrice: 'Small (18.5") - $55', medPrice: 'Medium (26") - $75', lrgPrice: 'Large (37") - $110'}
-    ]
+    ],
+    addedItems: [],
+    total: 0
 }
 
 const flagReducer = (state = initState, action) => {
-    return state;
+    if(action.type === ADD_TO_CART) {
+        let addedFlag = state.flags.find(flag => flag.id === action.id)
+    }
+    else return state;
 }
 
 export default flagReducer

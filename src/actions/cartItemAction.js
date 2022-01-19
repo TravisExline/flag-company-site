@@ -1,5 +1,6 @@
-export const ADD_ITEM = "ADD_ITEM"
-
-export const addItemToCart = item => {
-    return {type: ADD_ITEM, item}
+export const addToCart = (id) => {
+    return {
+        type: ADD_TO_CART,
+        id
+    }
 }

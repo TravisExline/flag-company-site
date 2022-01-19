@@ -11,6 +11,9 @@ import { connect } from 'react-redux'
 import BottomNav from '../components/BottomNav'
 
 class ViewFlagPage extends React.Component {
+
+    
+
     render() {
         return(
             <div>
@@ -35,6 +38,8 @@ class ViewFlagPage extends React.Component {
                         <p className='return-flavor'>
                             Made one at a time in out workshop, this tried and true homage to tradition creates a fine addition to your space
                         </p>
+                        {/* part of cart  */}
+                        <button onClick={ ()=>{this.handleClick(this.props.location.state.id)}}>Buy</button>
                     </div>
                 </div>
                 <WhyBuy />
@@ -51,4 +56,13 @@ const mapStateToProps = (state) => {
     return {flags: state.flagsReducer}
 }
 
-export default connect(mapStateToProps) (ViewFlagPage)
+
+// part of cart testing
+const mapDispatchToProps = (dispatch) => {
+    return{
+        addToCart: (id) => {dispatch(addToCart(id))}
+    }
+}
+
+
+export default connect(mapStateToProps, mapDispatchToProps) (ViewFlagPage)
